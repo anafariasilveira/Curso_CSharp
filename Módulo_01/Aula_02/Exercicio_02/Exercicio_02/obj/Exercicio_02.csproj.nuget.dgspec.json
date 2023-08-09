@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hugol\\OneDrive\\Documentos\\Curso C#\\Lista_01\\Exercicio_02\\Exercicio_02\\Exercicio_02.csproj": {}
+    "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_01\\Aula_02\\Exercicio_02\\Exercicio_02\\Exercicio_02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hugol\\OneDrive\\Documentos\\Curso C#\\Lista_01\\Exercicio_02\\Exercicio_02\\Exercicio_02.csproj": {
+    "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_01\\Aula_02\\Exercicio_02\\Exercicio_02\\Exercicio_02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hugol\\OneDrive\\Documentos\\Curso C#\\Lista_01\\Exercicio_02\\Exercicio_02\\Exercicio_02.csproj",
+        "projectUniqueName": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_01\\Aula_02\\Exercicio_02\\Exercicio_02\\Exercicio_02.csproj",
         "projectName": "Exercicio_02",
-        "projectPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\Curso C#\\Lista_01\\Exercicio_02\\Exercicio_02\\Exercicio_02.csproj",
+        "projectPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_01\\Aula_02\\Exercicio_02\\Exercicio_02\\Exercicio_02.csproj",
         "packagesPath": "C:\\Users\\hugol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\Curso C#\\Lista_01\\Exercicio_02\\Exercicio_02\\obj\\",
+        "outputPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_01\\Aula_02\\Exercicio_02\\Exercicio_02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hugol\\AppData\\Roaming\\NuGet\\NuGet.Config",

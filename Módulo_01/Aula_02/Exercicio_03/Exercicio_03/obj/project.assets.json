@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hugol\\OneDrive\\Documentos\\Curso C#\\Lista_01\\Exercicio_03\\Exercicio_03\\Exercicio_03.csproj",
+      "projectUniqueName": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_01\\Aula_02\\Exercicio_03\\Exercicio_03\\Exercicio_03.csproj",
       "projectName": "Exercicio_03",
-      "projectPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\Curso C#\\Lista_01\\Exercicio_03\\Exercicio_03\\Exercicio_03.csproj",
+      "projectPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_01\\Aula_02\\Exercicio_03\\Exercicio_03\\Exercicio_03.csproj",
       "packagesPath": "C:\\Users\\hugol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\Curso C#\\Lista_01\\Exercicio_03\\Exercicio_03\\obj\\",
+      "outputPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_01\\Aula_02\\Exercicio_03\\Exercicio_03\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hugol\\AppData\\Roaming\\NuGet\\NuGet.Config",

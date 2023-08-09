@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aninh\\Documents\\Aula Ada\\Curso C#\\Aula_02-main\\Exercicio_05\\Exercicio_05\\Exercicio_05.csproj": {}
+    "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_01\\Aula_02\\Exercicio_05\\Exercicio_05\\Exercicio_05.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aninh\\Documents\\Aula Ada\\Curso C#\\Aula_02-main\\Exercicio_05\\Exercicio_05\\Exercicio_05.csproj": {
+    "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_01\\Aula_02\\Exercicio_05\\Exercicio_05\\Exercicio_05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aninh\\Documents\\Aula Ada\\Curso C#\\Aula_02-main\\Exercicio_05\\Exercicio_05\\Exercicio_05.csproj",
+        "projectUniqueName": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_01\\Aula_02\\Exercicio_05\\Exercicio_05\\Exercicio_05.csproj",
         "projectName": "Exercicio_05",
-        "projectPath": "C:\\Users\\aninh\\Documents\\Aula Ada\\Curso C#\\Aula_02-main\\Exercicio_05\\Exercicio_05\\Exercicio_05.csproj",
-        "packagesPath": "C:\\Users\\aninh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aninh\\Documents\\Aula Ada\\Curso C#\\Aula_02-main\\Exercicio_05\\Exercicio_05\\obj\\",
+        "projectPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_01\\Aula_02\\Exercicio_05\\Exercicio_05\\Exercicio_05.csproj",
+        "packagesPath": "C:\\Users\\hugol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_01\\Aula_02\\Exercicio_05\\Exercicio_05\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aninh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hugol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
