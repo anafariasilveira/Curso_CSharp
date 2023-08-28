@@ -1,0 +1,14 @@
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\obj\Debug\net6.0\Exercicio_01_25_08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\obj\Debug\net6.0\Exercicio_01_25_08.AssemblyInfoInputs.cache
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\obj\Debug\net6.0\Exercicio_01_25_08.AssemblyInfo.cs
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\obj\Debug\net6.0\Exercicio_01_25_08.csproj.CoreCompileInputs.cache
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\bin\Debug\net6.0\Exercicio_01_25_08.exe
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\bin\Debug\net6.0\Exercicio_01_25_08.deps.json
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\bin\Debug\net6.0\Exercicio_01_25_08.runtimeconfig.json
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\bin\Debug\net6.0\Exercicio_01_25_08.dll
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\bin\Debug\net6.0\Exercicio_01_25_08.pdb
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\obj\Debug\net6.0\Exercicio_01_25_08.dll
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\obj\Debug\net6.0\refint\Exercicio_01_25_08.dll
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\obj\Debug\net6.0\Exercicio_01_25_08.pdb
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\obj\Debug\net6.0\Exercicio_01_25_08.genruntimeconfig.cache
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio_01\obj\Debug\net6.0\ref\Exercicio_01_25_08.dll

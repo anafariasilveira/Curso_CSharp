@@ -1,0 +1,14 @@
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\bin\Debug\net6.0\Exercicio01_LMS.exe
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\bin\Debug\net6.0\Exercicio01_LMS.deps.json
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\bin\Debug\net6.0\Exercicio01_LMS.runtimeconfig.json
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\bin\Debug\net6.0\Exercicio01_LMS.dll
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\bin\Debug\net6.0\Exercicio01_LMS.pdb
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\obj\Debug\net6.0\Exercicio01_LMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\obj\Debug\net6.0\Exercicio01_LMS.AssemblyInfoInputs.cache
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\obj\Debug\net6.0\Exercicio01_LMS.AssemblyInfo.cs
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\obj\Debug\net6.0\Exercicio01_LMS.csproj.CoreCompileInputs.cache
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\obj\Debug\net6.0\Exercicio01_LMS.dll
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\obj\Debug\net6.0\refint\Exercicio01_LMS.dll
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\obj\Debug\net6.0\Exercicio01_LMS.pdb
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\obj\Debug\net6.0\Exercicio01_LMS.genruntimeconfig.cache
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Módulo02\Exercicios\Exercicio01_LMS\obj\Debug\net6.0\ref\Exercicio01_LMS.dll
