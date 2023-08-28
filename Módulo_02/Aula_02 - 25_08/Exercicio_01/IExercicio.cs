@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio_01_25_08
+namespace Exercicio_01_Interfaces
 {
     public interface IExercicio
     {

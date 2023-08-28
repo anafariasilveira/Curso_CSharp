@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_01_25_08", "Exercicio_01\Exercicio_01_25_08.csproj", "{E9CC400F-31C0-4E27-9BDE-B7361AE3E7D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio_01_Interfaces", "Exercicio_01\Exercicio_01_Interfaces.csproj", "{E9CC400F-31C0-4E27-9BDE-B7361AE3E7D5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio01_LMS", "Exercicio01_LMS\Exercicio01_LMS.csproj", "{46CF8653-9353-4FD7-93D5-CD71FB907AC1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio02_LMS", "Exercicio02_LMS\Exercicio02_LMS.csproj", "{DD8C2147-0BFB-40A7-80FC-82B184C07E95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio05_LMS", "Exercicio05_LMS\Exercicio05_LMS.csproj", "{6A1660D3-4721-4E13-9BE0-F7011A99120E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio05_LMS", "Exercicio05_LMS\Exercicio05_LMS.csproj", "{6A1660D3-4721-4E13-9BE0-F7011A99120E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_02 - 25_08\\Exercicio_01\\Exercicio_01_25_08.csproj",
-      "projectName": "Exercicio_01_25_08",
-      "projectPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_02 - 25_08\\Exercicio_01\\Exercicio_01_25_08.csproj",
+      "projectUniqueName": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_02 - 25_08\\Exercicio_01\\Exercicio_01_Interfaces.csproj",
+      "projectName": "Exercicio_01_Interfaces",
+      "projectPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_02 - 25_08\\Exercicio_01\\Exercicio_01_Interfaces.csproj",
       "packagesPath": "C:\\Users\\hugol\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_02 - 25_08\\Exercicio_01\\obj\\",
       "projectStyle": "PackageReference",

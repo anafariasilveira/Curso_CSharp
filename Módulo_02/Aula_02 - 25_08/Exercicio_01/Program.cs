@@ -1,4 +1,4 @@
-﻿namespace Exercicio_01_25_08
+﻿namespace Exercicio_01_Interfaces
 {
     /* Crie uma interface Exercicio contendo os contratos para:
                 FazerProva - implementado

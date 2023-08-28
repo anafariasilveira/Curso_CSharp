@@ -1,0 +1,15 @@
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\bin\Debug\net6.0\Exercicio_01_Interfaces.exe
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\bin\Debug\net6.0\Exercicio_01_Interfaces.deps.json
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\bin\Debug\net6.0\Exercicio_01_Interfaces.runtimeconfig.json
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\bin\Debug\net6.0\Exercicio_01_Interfaces.dll
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\bin\Debug\net6.0\Exercicio_01_Interfaces.pdb
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\obj\Debug\net6.0\Exercicio_01_Interfaces.csproj.AssemblyReference.cache
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\obj\Debug\net6.0\Exercicio_01_Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\obj\Debug\net6.0\Exercicio_01_Interfaces.AssemblyInfoInputs.cache
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\obj\Debug\net6.0\Exercicio_01_Interfaces.AssemblyInfo.cs
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\obj\Debug\net6.0\Exercicio_01_Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\obj\Debug\net6.0\Exercicio_01_Interfaces.dll
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\obj\Debug\net6.0\refint\Exercicio_01_Interfaces.dll
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\obj\Debug\net6.0\Exercicio_01_Interfaces.pdb
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\obj\Debug\net6.0\Exercicio_01_Interfaces.genruntimeconfig.cache
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_02 - 25_08\Exercicio_01\obj\Debug\net6.0\ref\Exercicio_01_Interfaces.dll
