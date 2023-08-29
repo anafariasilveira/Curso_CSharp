@@ -1,8 +1,5 @@
 ﻿namespace Exercicio01_LMS
 {
-    /* 
-       Considerando a classe abstrata AnimalBase e a classe Cachorro, realize a conversão da classe abstrata para uma interface chamada IAnimal. Essa nova interface deverá ser implementada pela classe Cachorro. 
-     */
     internal class Program
     {
         static void Main(string[] args)
