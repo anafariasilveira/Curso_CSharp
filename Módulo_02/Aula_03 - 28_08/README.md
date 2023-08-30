@@ -1,4 +1,4 @@
-# *Lista de exercícios - Aula 03* 💡
+# Lista de exercícios - Aula 03 💡
 
 ### *Exercício 01 - Aula:* 
 
