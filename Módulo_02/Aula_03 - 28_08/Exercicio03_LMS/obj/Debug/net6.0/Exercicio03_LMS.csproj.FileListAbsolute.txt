@@ -1,0 +1,14 @@
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\bin\Debug\net6.0\Exercicio03_LMS.exe
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\bin\Debug\net6.0\Exercicio03_LMS.deps.json
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\bin\Debug\net6.0\Exercicio03_LMS.runtimeconfig.json
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\bin\Debug\net6.0\Exercicio03_LMS.dll
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\bin\Debug\net6.0\Exercicio03_LMS.pdb
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\obj\Debug\net6.0\Exercicio03_LMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\obj\Debug\net6.0\Exercicio03_LMS.AssemblyInfoInputs.cache
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\obj\Debug\net6.0\Exercicio03_LMS.AssemblyInfo.cs
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\obj\Debug\net6.0\Exercicio03_LMS.csproj.CoreCompileInputs.cache
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\obj\Debug\net6.0\Exercicio03_LMS.dll
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\obj\Debug\net6.0\refint\Exercicio03_LMS.dll
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\obj\Debug\net6.0\Exercicio03_LMS.pdb
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\obj\Debug\net6.0\Exercicio03_LMS.genruntimeconfig.cache
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_03 - 28_08\Exercicio03_LMS\obj\Debug\net6.0\ref\Exercicio03_LMS.dll
