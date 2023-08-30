@@ -2,6 +2,7 @@
 
 ### *Exercício 01 - Aula:* 
 
+Criar uma classe Reflection, e nela um método chamado ImprimeRefelction que tenha um um objeto do tipo object, que retorne as propriedades, o tipo e o valor.
 
 ### *Exercício 01 - LMS:*
 
