@@ -9,19 +9,7 @@ using System.Threading.Tasks;
 
 namespace Exercicio01_LMS
 {
-    /*
-     * public class Cachorro : AnimalBase
-{
-	public string nome { get; set; }    	
-	public string raca { get; set; }    	
-
-	public override void comer(string comida){}
-	public override void dormir(){}
-	public override string emitirSom() { return "AuAu"; }
-}
-    */
-
-    internal class Cachorro : IAnimal
+    public class Cachorro : IAnimal
     {
         public string Nome { get; set; }
         public string Raca { get; set; }
