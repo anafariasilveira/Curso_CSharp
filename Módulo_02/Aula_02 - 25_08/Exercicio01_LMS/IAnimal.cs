@@ -6,14 +6,6 @@ using System.Threading.Tasks;
 
 namespace Exercicio01_LMS
 {
-    /*
-     * public abstract class AnimalBase
-{   
-	public abstract void comer(string comida);    	
-	public abstract void dormir();
-	public abstract string emitirSom();
-}
-    */
     public interface IAnimal
     {
         void Comer(string comida);
