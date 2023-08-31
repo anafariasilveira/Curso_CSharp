@@ -14,4 +14,5 @@ Neste repositório você encontrará as resoluções dos exercícios propostos p
 
 * POO 2;
 * Reflection;
+* Generics;
 
