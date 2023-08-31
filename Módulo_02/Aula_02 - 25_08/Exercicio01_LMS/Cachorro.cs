@@ -13,11 +13,10 @@ namespace Exercicio01_LMS
     {
         public string Nome { get; set; }
         public string Raca { get; set; }
- 
 
         public void Comer(string comida)
         {
-            Console.WriteLine($"O cachorro está comendo {comida}.");
+            Console.WriteLine($"O cachorro está comendo.");
         }
         public void Dormir()
         {
