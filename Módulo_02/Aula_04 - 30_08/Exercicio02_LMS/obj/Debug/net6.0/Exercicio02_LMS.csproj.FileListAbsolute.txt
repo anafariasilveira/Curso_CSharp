@@ -1,0 +1,14 @@
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\bin\Debug\net6.0\Exercicio02_LMS.exe
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\bin\Debug\net6.0\Exercicio02_LMS.deps.json
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\bin\Debug\net6.0\Exercicio02_LMS.runtimeconfig.json
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\bin\Debug\net6.0\Exercicio02_LMS.dll
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\bin\Debug\net6.0\Exercicio02_LMS.pdb
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\obj\Debug\net6.0\Exercicio02_LMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\obj\Debug\net6.0\Exercicio02_LMS.AssemblyInfoInputs.cache
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\obj\Debug\net6.0\Exercicio02_LMS.AssemblyInfo.cs
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\obj\Debug\net6.0\Exercicio02_LMS.csproj.CoreCompileInputs.cache
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\obj\Debug\net6.0\Exercicio02_LMS.dll
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\obj\Debug\net6.0\refint\Exercicio02_LMS.dll
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\obj\Debug\net6.0\Exercicio02_LMS.pdb
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\obj\Debug\net6.0\Exercicio02_LMS.genruntimeconfig.cache
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_02\Aula_04 - 30_08\Exercicio02_LMS\obj\Debug\net6.0\ref\Exercicio02_LMS.dll

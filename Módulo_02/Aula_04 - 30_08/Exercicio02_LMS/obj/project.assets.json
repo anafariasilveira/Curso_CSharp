@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_04 - 30_08\\Exercicio02_Aula\\Exercicio02_Aula.csproj",
-      "projectName": "Exercicio02_Aula",
-      "projectPath": "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_04 - 30_08\\Exercicio02_Aula\\Exercicio02_Aula.csproj",
+      "projectUniqueName": "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_04 - 30_08\\Exercicio02_LMS\\Exercicio02_LMS.csproj",
+      "projectName": "Exercicio02_LMS",
+      "projectPath": "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_04 - 30_08\\Exercicio02_LMS\\Exercicio02_LMS.csproj",
       "packagesPath": "C:\\Users\\aninh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_04 - 30_08\\Exercicio02_Aula\\obj\\",
+      "outputPath": "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_04 - 30_08\\Exercicio02_LMS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aninh\\AppData\\Roaming\\NuGet\\NuGet.Config",

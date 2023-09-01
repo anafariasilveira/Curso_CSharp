@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aninh\\Documents\\Aula Ada\\Curso C#\\Aulas_Modulo02\\Exercícios\\Exercícios_Aula04\\Exercicio02_Aula\\Exercicio02_Aula.csproj": {}
+    "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_04 - 30_08\\Exercicio02_Aula\\Exercicio02_Aula.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aninh\\Documents\\Aula Ada\\Curso C#\\Aulas_Modulo02\\Exercícios\\Exercícios_Aula04\\Exercicio02_Aula\\Exercicio02_Aula.csproj": {
+    "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_04 - 30_08\\Exercicio02_Aula\\Exercicio02_Aula.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aninh\\Documents\\Aula Ada\\Curso C#\\Aulas_Modulo02\\Exercícios\\Exercícios_Aula04\\Exercicio02_Aula\\Exercicio02_Aula.csproj",
+        "projectUniqueName": "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_04 - 30_08\\Exercicio02_Aula\\Exercicio02_Aula.csproj",
         "projectName": "Exercicio02_Aula",
-        "projectPath": "C:\\Users\\aninh\\Documents\\Aula Ada\\Curso C#\\Aulas_Modulo02\\Exercícios\\Exercícios_Aula04\\Exercicio02_Aula\\Exercicio02_Aula.csproj",
+        "projectPath": "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_04 - 30_08\\Exercicio02_Aula\\Exercicio02_Aula.csproj",
         "packagesPath": "C:\\Users\\aninh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aninh\\Documents\\Aula Ada\\Curso C#\\Aulas_Modulo02\\Exercícios\\Exercícios_Aula04\\Exercicio02_Aula\\obj\\",
+        "outputPath": "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_04 - 30_08\\Exercicio02_Aula\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aninh\\AppData\\Roaming\\NuGet\\NuGet.Config",
