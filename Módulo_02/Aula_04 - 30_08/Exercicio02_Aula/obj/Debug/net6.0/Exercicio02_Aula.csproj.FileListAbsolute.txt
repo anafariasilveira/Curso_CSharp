@@ -1,0 +1,14 @@
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\bin\Debug\net6.0\Exercicio02_Aula.exe
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\bin\Debug\net6.0\Exercicio02_Aula.deps.json
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\bin\Debug\net6.0\Exercicio02_Aula.runtimeconfig.json
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\bin\Debug\net6.0\Exercicio02_Aula.dll
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\bin\Debug\net6.0\Exercicio02_Aula.pdb
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\obj\Debug\net6.0\Exercicio02_Aula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\obj\Debug\net6.0\Exercicio02_Aula.AssemblyInfoInputs.cache
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\obj\Debug\net6.0\Exercicio02_Aula.AssemblyInfo.cs
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\obj\Debug\net6.0\Exercicio02_Aula.csproj.CoreCompileInputs.cache
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\obj\Debug\net6.0\Exercicio02_Aula.dll
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\obj\Debug\net6.0\refint\Exercicio02_Aula.dll
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\obj\Debug\net6.0\Exercicio02_Aula.pdb
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\obj\Debug\net6.0\Exercicio02_Aula.genruntimeconfig.cache
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercícios_Aula04\Exercicio02_Aula\obj\Debug\net6.0\ref\Exercicio02_Aula.dll
