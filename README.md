@@ -15,4 +15,6 @@ Neste repositório você encontrará as resoluções dos exercícios propostos p
 * POO 2;
 * Reflection;
 * Generics;
+* Inversõao de controle (IOC);
+* Injeção de dependência (DI);
 
