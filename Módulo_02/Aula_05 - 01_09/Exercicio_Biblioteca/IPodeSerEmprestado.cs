@@ -9,6 +9,6 @@ namespace Exercicio_Biblioteca
     public interface IPodeSerEmprestado
     {
         string Emprestar();
-        string Devolver();
+        string Devolver(DateTime datadevolucao);
     }
 }
