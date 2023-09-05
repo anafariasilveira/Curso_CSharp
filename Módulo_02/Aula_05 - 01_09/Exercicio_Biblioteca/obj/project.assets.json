@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Aula\\Exercicio_Aula.csproj",
-      "projectName": "Exercicio_Aula",
-      "projectPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Aula\\Exercicio_Aula.csproj",
+      "projectUniqueName": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Biblioteca\\Exercicio_Biblioteca.csproj",
+      "projectName": "Exercicio_Biblioteca",
+      "projectPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Biblioteca\\Exercicio_Biblioteca.csproj",
       "packagesPath": "C:\\Users\\hugol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Aula\\obj\\",
+      "outputPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hugol\\AppData\\Roaming\\NuGet\\NuGet.Config",
