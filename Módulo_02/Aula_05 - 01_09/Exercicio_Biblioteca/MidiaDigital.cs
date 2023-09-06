@@ -18,7 +18,10 @@ namespace Exercicio_Biblioteca
         }
         public string Emprestar()
         {
+                DataDeEmprestimo = DateTime.Now;
+
                 StringBuilder sb = new();
+
                 sb.AppendLine($"Midia Digital emprestada com sucesso!");
                 sb.AppendLine();
                 sb.AppendLine($"Data do emprestimo: {DataDeEmprestimo}");
@@ -28,7 +31,7 @@ namespace Exercicio_Biblioteca
 
             return sb.ToString();
         }
-        public string Devolver(DateTime datadevolucao)
+        public string Devolver()
         {
             return "Midia Digital não necessita ser devolvida."; 
         }

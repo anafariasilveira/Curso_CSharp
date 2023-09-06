@@ -21,6 +21,12 @@ namespace Exercicio_Biblioteca
         {
             if (!Emprestimo)
             {
+                if (DataDeEmprestimo == default)
+                {
+                    DataDeEmprestimo = DateTime.Now;
+                    DataDeDevolucao = DataDeEmprestimo.AddDays(7);
+                }
+
                 Emprestimo = true;
 
                 StringBuilder sb = new();
@@ -39,10 +45,9 @@ namespace Exercicio_Biblioteca
                 return $"O livro {Titulo} não está disponível para empréstimo.";
             }
         }
-        public string Devolver(DateTime datadevolucao)
+        public string Devolver()
         {
-            DataDeDevolucao = DataDeEmprestimo.AddDays(7);
-            
+            DateTime datadevolucao = DataDeDevolucao;
 
             if (datadevolucao <= DataDeDevolucao)
             {

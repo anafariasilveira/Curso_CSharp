@@ -8,50 +8,31 @@ namespace Exercicio_Biblioteca
 {
     public class Biblioteca
     {
-        private List<IPodeSerEmprestado> itememprestado = new();
+        private List<IPodeSerEmprestado> emprestimo = new ();
 
-        public void AdicionarItem(ItemBiblioteca item)
+
+        public void AdicionarItem(IPodeSerEmprestado item)
         {
-            if (item is IPodeSerEmprestado emprestimo)
-            {
-                itememprestado.Add(emprestimo);
-                Console.WriteLine($"O item '{item.Titulo}' foi adicionado à biblioteca.");
-            }
-            else
-            {
-                Console.WriteLine($"O item '{item.Titulo}' não pode ser emprestado e não foi adicionado à biblioteca.");
-            }
+            emprestimo.Add(item);
         }
 
-        public void EmprestarItem(string titulo)
+        public void EmprestarItem(IPodeSerEmprestado item)
         {
-            var item = itememprestado.Find(obj => obj is ItemBiblioteca && ((ItemBiblioteca)obj).Titulo == titulo);
-
-            if (item != null)
+            if (emprestimo.Contains(item))
             {
                 item.Emprestar();
-                itememprestado.Remove(item);
+                emprestimo.Remove(item);
             }
             else
             {
-                Console.WriteLine($"O item '{titulo}' não pode ser emprestado.");
+                Console.WriteLine("Este item não está disponível.");
             }
         }
 
-        public void DevolverItem(string titulo)
+        public void DevolverItem(IPodeSerEmprestado item)
         {
-            var item = itememprestado.Find(obj => obj is ItemBiblioteca && ((ItemBiblioteca)obj).Titulo == titulo);
-
-            if (item != null)
-            {
-                item.Devolver();
-                itememprestado.Add(item);
-            }
-            else
-            {
-                Console.WriteLine($"O item '{titulo}' não pode ser devolvido. Procure a secretaria.");
-            }
+            item.Devolver();
+            emprestimo.Add(item);
         }
-
     }
 }

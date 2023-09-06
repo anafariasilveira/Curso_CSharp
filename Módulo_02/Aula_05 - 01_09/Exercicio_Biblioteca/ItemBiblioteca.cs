@@ -12,9 +12,6 @@ namespace Exercicio_Biblioteca
         public string Autor {  get; set; }
         public int AnoPubli { get; set; }
         public int NumeroPags { get; set; }
-        //public List<string> Livros { get; set; } = new();
-        //public List<string> Revistas { get; set; } = new();
-
         public ItemBiblioteca(string titulo, string autor, int anopubli, int numeropags)
         {
             Titulo = titulo;
