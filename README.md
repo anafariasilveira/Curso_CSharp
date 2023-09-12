@@ -17,4 +17,5 @@ Neste repositório você encontrará as resoluções dos exercícios propostos p
 * Generics;
 * Inversõao de controle (IOC);
 * Injeção de dependência (DI);
+* SOLID - conceitos e aplicações;
 
