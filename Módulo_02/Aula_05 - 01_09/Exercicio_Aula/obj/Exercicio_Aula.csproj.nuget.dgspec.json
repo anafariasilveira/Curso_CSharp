@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Aula\\Exercicio_Aula.csproj": {}
+    "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Aula\\Exercicio_Aula.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Aula\\Exercicio_Aula.csproj": {
+    "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Aula\\Exercicio_Aula.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Aula\\Exercicio_Aula.csproj",
+        "projectUniqueName": "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Aula\\Exercicio_Aula.csproj",
         "projectName": "Exercicio_Aula",
-        "projectPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Aula\\Exercicio_Aula.csproj",
-        "packagesPath": "C:\\Users\\hugol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hugol\\OneDrive\\Documentos\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Aula\\obj\\",
+        "projectPath": "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Aula\\Exercicio_Aula.csproj",
+        "packagesPath": "C:\\Users\\aninh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aninh\\Documents\\GitHub\\Curso_CSharp\\Módulo_02\\Aula_05 - 01_09\\Exercicio_Aula\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hugol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aninh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
