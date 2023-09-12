@@ -1,0 +1,14 @@
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\bin\Debug\net6.0\Exercicio_Aula08.exe
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\bin\Debug\net6.0\Exercicio_Aula08.deps.json
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\bin\Debug\net6.0\Exercicio_Aula08.runtimeconfig.json
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\bin\Debug\net6.0\Exercicio_Aula08.dll
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\bin\Debug\net6.0\Exercicio_Aula08.pdb
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\obj\Debug\net6.0\Exercicio_Aula08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\obj\Debug\net6.0\Exercicio_Aula08.AssemblyInfoInputs.cache
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\obj\Debug\net6.0\Exercicio_Aula08.AssemblyInfo.cs
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\obj\Debug\net6.0\Exercicio_Aula08.csproj.CoreCompileInputs.cache
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\obj\Debug\net6.0\Exercicio_Aula08.dll
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\obj\Debug\net6.0\refint\Exercicio_Aula08.dll
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\obj\Debug\net6.0\Exercicio_Aula08.pdb
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\obj\Debug\net6.0\Exercicio_Aula08.genruntimeconfig.cache
+C:\Users\aninh\Documents\Aula Ada\Curso C#\Aulas_Modulo02\Exercícios\Exercicio_Aula08\Exercicio_Aula08\obj\Debug\net6.0\ref\Exercicio_Aula08.dll
