@@ -1,0 +1,14 @@
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\bin\Debug\net6.0\Exercicio_Biblioteca.exe
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\bin\Debug\net6.0\Exercicio_Biblioteca.deps.json
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\bin\Debug\net6.0\Exercicio_Biblioteca.runtimeconfig.json
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\bin\Debug\net6.0\Exercicio_Biblioteca.dll
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\bin\Debug\net6.0\Exercicio_Biblioteca.pdb
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\obj\Debug\net6.0\Exercicio_Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\obj\Debug\net6.0\Exercicio_Biblioteca.AssemblyInfoInputs.cache
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\obj\Debug\net6.0\Exercicio_Biblioteca.AssemblyInfo.cs
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\obj\Debug\net6.0\Exercicio_Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\obj\Debug\net6.0\Exercicio_Biblioteca.dll
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\obj\Debug\net6.0\refint\Exercicio_Biblioteca.dll
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\obj\Debug\net6.0\Exercicio_Biblioteca.pdb
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\obj\Debug\net6.0\Exercicio_Biblioteca.genruntimeconfig.cache
+C:\Users\hugol\OneDrive\Documentos\GitHub\Curso_CSharp\Módulo_02\Aula_05 - 01_09\Exercicio_Biblioteca\obj\Debug\net6.0\ref\Exercicio_Biblioteca.dll
