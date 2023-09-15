@@ -6,11 +6,11 @@ Este curso é destinado apens a mulheres, e que foram aprovadas no processo sele
 
 Neste repositório você encontrará as resoluções dos exercícios propostos pelos professores durante todo o curso, bem como os projetos finais.
 
-## *Módulo 1:* ✔ 
+## *Módulo 1:* Nivelamento de Lógica de Programação e Orientação a Objetos ✔ 
 * Nivelamento C#;
 * POO;
   
-## *Módulo 2:* ⏳
+## *Módulo 2:* Programação Orientada a Objetos II (C#) ✔ 
 
 * POO 2;
 * Reflection;
@@ -18,4 +18,10 @@ Neste repositório você encontrará as resoluções dos exercícios propostos p
 * Inversõao de controle (IOC);
 * Injeção de dependência (DI);
 * SOLID - conceitos e aplicações;
+
+## *Módulo 3:* Programação Web III (WEBAPI) ⏳
+## *Módulo 4:* Arquitetura de Software e Ágil I (C#) ⏳
+## *Módulo 5:* Arquitetura de Software e Ágil II (C#) ⏳
+## *Módulo 6:* Testes Automatizados I (C#) ⏳
+
 
