@@ -19,7 +19,6 @@ Neste repositório você encontrará as resoluções dos exercícios propostos p
 * Injeção de dependência (DI);
 * SOLID - conceitos e aplicações;
 
-  ## *Módulo 3:* ⏳
+## *Módulo 3:* ⏳
 
-  *
 
