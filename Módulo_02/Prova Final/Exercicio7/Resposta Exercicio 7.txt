@@ -1,0 +1,1 @@
+Estamos respeitando o princípio open-closed, o O.

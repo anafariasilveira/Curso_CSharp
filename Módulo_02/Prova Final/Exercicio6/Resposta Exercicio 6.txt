@@ -1,0 +1,2 @@
+O princípio da responsabilidade única quer dizer que uma classe tem apenas uma única responsabilidade e deve apenas ter um motivo para mudar.
+Se violarmos esse princípio, podemos geral um alto acoplamento no nosso código, fazendo com que o entendimento fique ruim para aqueles que podem fazer alguma manutenção.

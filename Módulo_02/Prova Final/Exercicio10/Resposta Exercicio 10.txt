@@ -1,0 +1,46 @@
+Exercício 10
+Classifique as afirmações a seguir como Verdadeiras ou Falsas.  
+
+Uma classe abstrata pode ser instanciada.  
+( ) Verdadeiro  
+(x) Falso  
+
+Uma classe abstrata pode ter método não abstratos.  
+(x) Verdadeiro  
+( ) Falso  
+
+Uma classe derivada da classe abstrata obrigatoriamente deve implementar os métodos abstratos.  
+(x) Verdadeiro  
+( ) Falso  
+
+A interface é um tipo de herança, ou seja, os objetos instanciados de uma interface são uma interface.  
+( ) Verdadeiro  
+(x) Falso  
+
+Os contratos da interface não são obrigatórios de implementação.  
+( ) Verdadeiro  
+(x) Falso  
+
+Um dos principais benefícios do uso de interfaces é que elas permitem testes e manutenção de código mais fáceis  
+(x) Verdadeiro  
+( ) Falso  
+
+Outra vantagem do uso de interfaces é que elas promovem um acoplamento fraco entre classes  
+(x) Verdadeiro  
+( ) Falso  
+
+A utilização de Reflection só traz benefícios para o código, pois ajuda a deixá-los mais rápido.  
+( ) Verdadeiro  
+(x) Falso  
+
+É possível instanciar objetos em tempo de execução com Reflection  
+(x) Verdadeiro  
+( ) Falso  
+
+O Generic possibilita uma versatilidade nos tipos, e ainda garante um tipagem segura  
+(x) Verdadeiro  
+( ) Falso  
+
+Generics é utilizado para escrita de códigos reutilizáveis.  
+(x) Verdadeiro  
+( ) Falso  

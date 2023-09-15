@@ -1,0 +1,1 @@
+De acordo com LSP, se uma classe derivada pode ser utilizada no lugar da classe base, podemos sobrescrever os métodos, com polimorfismo, sem que gere algum problema no nosso código.
