@@ -10,7 +10,7 @@ Neste repositório você encontrará as resoluções dos exercícios propostos p
 * Nivelamento C#;
 * POO;
   
-## *Módulo 2:* ⏳
+## *Módulo 2:* ✔ 
 
 * POO 2;
 * Reflection;
@@ -18,4 +18,8 @@ Neste repositório você encontrará as resoluções dos exercícios propostos p
 * Inversõao de controle (IOC);
 * Injeção de dependência (DI);
 * SOLID - conceitos e aplicações;
+
+  ## *Módulo 3:* ⏳
+
+  *
 
