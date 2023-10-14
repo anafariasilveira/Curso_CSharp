@@ -19,7 +19,24 @@ Neste repositório você encontrará as resoluções dos exercícios propostos p
 * Injeção de dependência (DI);
 * SOLID - conceitos e aplicações;
 
-## *Módulo 3:* Programação Web III (WEBAPI) ⏳
+## *Módulo 3:* Programação Web III (WEBAPI) ✔
+
+Durante estemódulo, construímos juntos uma WebApi de gerenciamento de um PetShop. 
+
+Aprendemos e aplicamos conceitos como:
+
+* Conexão com banco de dados;
+* Controllers;
+* Exceptions;
+* Validação, Autenticação e Autorização;
+* Construir uma API bem documentada com o Swagger;
+* CORS;
+* Um pouquinho de front end para poder exergar melhor o que estávamos fazendo 😁;
+
+Neste repositório, você encontrará a WebAPI que foi criada durante o módulo, bem como a "prova" que realizamos. 
+
+A prova consiste em uma API com diversos erros, ou faltando linhas no código fonte, que precisaríamos detecar e alterar para que a API funcionasse corretamente. 
+
 ## *Módulo 4:* Arquitetura de Software e Ágil I (C#) ⏳
 ## *Módulo 5:* Arquitetura de Software e Ágil II (C#) ⏳
 ## *Módulo 6:* Testes Automatizados I (C#) ⏳
