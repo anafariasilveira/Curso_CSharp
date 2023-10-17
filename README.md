@@ -21,7 +21,7 @@ Neste repositório você encontrará as resoluções dos exercícios propostos p
 
 ## [*Módulo 3:* Programação Web III (WEBAPI) ✔](https://github.com/anafariasilveira/Curso_CSharp/tree/main/M%C3%B3dulo_03)
 
-Durante estemódulo, construímos juntos uma WebApi de gerenciamento de um PetShop. 
+Durante este módulo, construímos juntas uma WebApi de gerenciamento de um PetShop. 
 
 Aprendemos e aplicamos conceitos como:
 
