@@ -19,7 +19,7 @@ Neste repositório você encontrará as resoluções dos exercícios propostos p
 * Injeção de dependência (DI);
 * SOLID - conceitos e aplicações;
 
-## *Módulo 3:* Programação Web III (WEBAPI) ✔
+## [*Módulo 3:* Programação Web III (WEBAPI) ✔](https://github.com/anafariasilveira/Curso_CSharp/tree/main/M%C3%B3dulo_03)
 
 Durante estemódulo, construímos juntos uma WebApi de gerenciamento de um PetShop. 
 
