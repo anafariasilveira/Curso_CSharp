@@ -6,11 +6,11 @@ Este curso é destinado apens a mulheres, e que foram aprovadas no processo sele
 
 Neste repositório você encontrará as resoluções dos exercícios propostos pelos professores durante todo o curso, bem como os projetos finais.
 
-## *Módulo 1:* Nivelamento de Lógica de Programação e Orientação a Objetos ✔ 
+## [*Módulo 1:* Nivelamento de Lógica de Programação e Orientação a Objetos ✔](https://github.com/anafariasilveira/Curso_CSharp/tree/main/M%C3%B3dulo_01)
 * Nivelamento C#;
 * POO;
   
-## *Módulo 2:* Programação Orientada a Objetos II (C#) ✔ 
+## [*Módulo 2:* Programação Orientada a Objetos II (C#) ✔](https://github.com/anafariasilveira/Curso_CSharp/tree/main/M%C3%B3dulo_02) 
 
 * POO 2;
 * Reflection;
