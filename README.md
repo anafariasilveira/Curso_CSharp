@@ -38,10 +38,20 @@ Neste repositório, você encontrará a WebAPI que foi criada durante o módulo,
 A prova consiste em uma API com diversos erros, ou faltando linhas no código fonte, que precisaríamos detecar e alterar para que a API funcionasse corretamente. 
 
 ## *Módulo 4:* Arquitetura de Software e Ágil I (C#) ✔
-## *Módulo 5:* Arquitetura de Software e Ágil II (C#) ⏳
+
+Aprendemons conceitos de metodologias ágies e aprofundamos nosso aprendizado em SOLID. 
+
+Fizemos o deep dive um projeto, assim como também estruturamos os microsserviços e as APIs que iremos construir no próximo módulo 👩‍💻
+
+
+## [*Módulo 5:* Arquitetura de Software e Ágil II (C#) ⏳](https://github.com/anafariasilveira/Curso_CSharp/tree/main/M%C3%B3dulo_05)
 
 Neste módulo, estamos construindo um projeto com todo conhecimento adquirido no módulo anterior. 
-Aplicaremos conceitos de SOLID e de metodologias ágeis em todo o projeto. Este é feito em grupo, onde os colaboradores são: Ana Paula (eu :D), Daniela Rocha, Gabriela Bosshard, Karen Viana, Liliane, Luelen, Nayara e Morgana.
+
+Aplicaremos conceitos de SOLID e de metodologias ágeis em todo o projeto. Este é feito em grupo, onde os colaboradores são:
+
+[Ana Paula](https://github.com/anafariasilveira) (eu 😁), [Daniela Rocha](https://github.com/danirocha87), [Gabriela Bosshard](https://github.com/gzbosshard), [Karen Viana](https://github.com/karenpjviana), [Liliane Souza](https://github.com/Lilianeacs), [Luelen Carvalheiro](https://github.com/luelencavalheiro), [Natalia Franceschi](https://github.com/NataliaFranceschi), [Nayara Lima](https://github.com/naylima) e [Morgana Larissa](https://github.com/morganalarissa).
+
 ## *Módulo 6:* Testes Automatizados I (C#) ⏳
 
 
