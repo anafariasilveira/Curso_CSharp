@@ -37,7 +37,7 @@ Neste repositório, você encontrará a WebAPI que foi criada durante o módulo,
 
 A prova consiste em uma API com diversos erros, ou faltando linhas no código fonte, que precisaríamos detecar e alterar para que a API funcionasse corretamente. 
 
-## *Módulo 4:* Arquitetura de Software e Ágil I (C#) ✔
+## [*Módulo 4:* Arquitetura de Software e Ágil I (C#) ✔](https://github.com/anafariasilveira/Curso_CSharp/tree/main/M%C3%B3dulo_04)
 
 Aprendemons conceitos de metodologias ágies e aprofundamos nosso aprendizado em SOLID. 
 
