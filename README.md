@@ -37,8 +37,11 @@ Neste repositório, você encontrará a WebAPI que foi criada durante o módulo,
 
 A prova consiste em uma API com diversos erros, ou faltando linhas no código fonte, que precisaríamos detecar e alterar para que a API funcionasse corretamente. 
 
-## *Módulo 4:* Arquitetura de Software e Ágil I (C#) ⏳
+## *Módulo 4:* Arquitetura de Software e Ágil I (C#) ✔
 ## *Módulo 5:* Arquitetura de Software e Ágil II (C#) ⏳
+
+Neste módulo, estamos construindo um projeto com todo conhecimento adquirido no módulo anterior. 
+Aplicaremos conceitos de SOLID e de metodologias ágeis em todo o projeto. Este é feito em grupo, onde os colaboradores são: Ana Paula (eu :D), Daniela Rocha, Gabriela Bosshard, Karen Viana, Liliane, Luelen, Nayara e Morgana.
 ## *Módulo 6:* Testes Automatizados I (C#) ⏳
 
 
