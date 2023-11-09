@@ -1,0 +1,13 @@
+﻿using FashionTrend.Domain.Enums;
+
+namespace FashionTrend.Application.UseCases.CreateSupplier
+{
+    public sealed record CreateSupplierResponse
+    {
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public List<EMaterial> Materials { get; set; }
+        public List<ESewingMachine> SewingMachines { get; set; }
+    }
+}

@@ -17,7 +17,7 @@ namespace FashionTrend.Persistence.Repositories
         {
             Context = context;
         }
-        void IBaseRepository<T>.Created(T entity)
+        void IBaseRepository<T>.Create(T entity)
         {
             entity.DateCreated = DateTimeOffset.Now;
             Context.Add(entity);
@@ -36,7 +36,7 @@ namespace FashionTrend.Persistence.Repositories
         {
             return await Context.Set<T>().ToListAsync(cancellationToken);
         }
-        void IBaseRepository<T>.Updated(T entity)
+        void IBaseRepository<T>.Update(T entity)
         {
             entity.DateUpdated = DateTimeOffset.Now;
             Context.Update(entity);

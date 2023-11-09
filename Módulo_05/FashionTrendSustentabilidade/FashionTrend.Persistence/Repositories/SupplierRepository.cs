@@ -1,4 +1,5 @@
 ﻿using FashionTrend.Domain.Entities;
+using FashionTrend.Domain.Enums;
 using FashionTrend.Domain.Interfaces;
 using FashionTrend.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
@@ -16,16 +17,27 @@ namespace FashionTrend.Persistence.Repositories
         {
             
         }
-        async Task<Supplier> ISupplierRepository.GetTipoMaquina(string tipomaquina, CancellationToken cancellationToken)
+
+        public async Task<Supplier> GetByEmail(string email, CancellationToken cancellationToken)
         {
             return await Context.Suppliers.FirstOrDefaultAsync(
-            x => x.TipoMaquina.Equals(tipomaquina), cancellationToken);
+            x => x.Email.Equals(email), cancellationToken);
         }
 
-        async Task<Supplier> ISupplierRepository.GetTipoMaterial(string tipomaterial, CancellationToken cancellationToken)
+        public async Task<List<Supplier>> GetByMachine(string sewingmachine, CancellationToken cancellationToken)
+        {
+            return await Context.Suppliers.Where(
+            x => x.SewingMachines.Any(s => s.Equals(sewingmachine))).ToListAsync(cancellationToken);
+        }
+        public async Task<List<Supplier>> GetByMaterials(string material, CancellationToken cancellationToken)
+        {
+            return await Context.Suppliers.Where(
+            x => x.Materials.Any(s => s.Equals(material))).ToListAsync(cancellationToken);
+        }
+        /*public async Task<Supplier> GetByMaterials(string material, CancellationToken cancellationToken)
         {
             return await Context.Suppliers.FirstOrDefaultAsync(
-            x => x.TipoMaterial.Equals(tipomaterial), cancellationToken);
-        }
+            x => x.Materials.Equals(material), cancellationToken);
+        }*/
     }
 }

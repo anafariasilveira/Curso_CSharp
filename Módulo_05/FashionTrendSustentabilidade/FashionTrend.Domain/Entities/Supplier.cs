@@ -1,16 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FashionTrend.Domain.Enums;
+using System.ComponentModel.DataAnnotations;
+
 
 namespace FashionTrend.Domain.Entities
 {
     public class Supplier : BaseEntity
     {
+        
         public string Name { get; set; }
         public string Email { get; set; }
-        public string TipoMaquina { get; set; }
-        public string TipoMaterial { get; set; }
+        public string Password { get; set; }
+        public List<EMaterial> Materials { get; set; }
+        public List<ESewingMachine> SewingMachines { get; set; }
+
+        /*public List<EMaterial> Materials { get; set; }
+        public List<ESewingMachine> SewingMachines { get; set; }*/
     }
 }
