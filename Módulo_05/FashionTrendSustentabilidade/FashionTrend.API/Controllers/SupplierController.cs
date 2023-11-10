@@ -18,8 +18,8 @@ namespace FashionTrend.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CreateSupplierRequest request)
         {
-            var user = await _mediator.Send(request);
-            return Ok(user);
+            var supplier = await _mediator.Send(request);
+            return Ok(supplier);
         }
     }
 }

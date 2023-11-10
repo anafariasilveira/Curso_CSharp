@@ -23,7 +23,8 @@ namespace FashionTrend.Persistence.Repositories
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<ISupplierRepository, SupplierRepository>();
-
+            services.AddScoped<IServiceRepository, ServiceRepository>();
+            services.AddScoped<IServiceOrderRepository, ServiceOrderRepository>();
         }
     }
 }

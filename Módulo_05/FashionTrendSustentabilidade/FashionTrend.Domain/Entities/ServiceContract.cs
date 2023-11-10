@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FashionTrend.Domain.Entities
 {
-    public class ServiceContract
+    public class ServiceContract : BaseEntity
     {
         public Guid OrderId { get; set; }
         public Guid SupplierId { get; set; }

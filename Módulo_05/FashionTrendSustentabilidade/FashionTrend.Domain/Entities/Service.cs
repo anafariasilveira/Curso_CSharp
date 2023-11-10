@@ -14,5 +14,6 @@ namespace FashionTrend.Domain.Entities
         public List<ERequestType> Type { get; set; }
         public List<ESewingMachine> SewingMachines { get; set; }
         public List<EMaterial> Materials { get; set; }
+        public bool Payment { get; set; }
     }
 }

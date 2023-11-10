@@ -14,8 +14,6 @@ namespace FashionTrend.Persistence.Context
         {
 
         }
-        public DbSet<Supplier> Suppliers { get; set; }
-        public DbSet<Service> Services { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Supplier>().Ignore(supplier => supplier.Materials);
@@ -24,5 +22,9 @@ namespace FashionTrend.Persistence.Context
             modelBuilder.Entity<Service>().Ignore(service => service.SewingMachines);
             modelBuilder.Entity<Service>().Ignore(service => service.Type);
         }
+        public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<ServiceOrder> ServicesOrder { get; set; }
+        
     }
 }
