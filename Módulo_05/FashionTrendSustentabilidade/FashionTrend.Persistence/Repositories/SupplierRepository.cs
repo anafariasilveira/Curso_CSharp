@@ -23,7 +23,6 @@ namespace FashionTrend.Persistence.Repositories
             return await Context.Suppliers.FirstOrDefaultAsync(
             x => x.Email.Equals(email), cancellationToken);
         }
-
         public async Task<List<Supplier>> GetByMachine(string sewingmachine, CancellationToken cancellationToken)
         {
             return await Context.Suppliers.Where(
@@ -34,10 +33,5 @@ namespace FashionTrend.Persistence.Repositories
             return await Context.Suppliers.Where(
             x => x.Materials.Any(s => s.Equals(material))).ToListAsync(cancellationToken);
         }
-        /*public async Task<Supplier> GetByMaterials(string material, CancellationToken cancellationToken)
-        {
-            return await Context.Suppliers.FirstOrDefaultAsync(
-            x => x.Materials.Equals(material), cancellationToken);
-        }*/
     }
 }

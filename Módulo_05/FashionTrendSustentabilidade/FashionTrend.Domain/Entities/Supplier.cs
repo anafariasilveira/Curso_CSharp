@@ -12,8 +12,5 @@ namespace FashionTrend.Domain.Entities
         public string Password { get; set; }
         public List<EMaterial> Materials { get; set; }
         public List<ESewingMachine> SewingMachines { get; set; }
-
-        /*public List<EMaterial> Materials { get; set; }
-        public List<ESewingMachine> SewingMachines { get; set; }*/
     }
 }

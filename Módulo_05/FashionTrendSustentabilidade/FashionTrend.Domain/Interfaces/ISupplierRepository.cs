@@ -12,7 +12,5 @@ namespace FashionTrend.Domain.Interfaces
         public Task<Supplier> GetByEmail(string email, CancellationToken cancellationToken);
         public Task<List<Supplier>> GetByMaterials(string material, CancellationToken cancellationToken);
         public Task<List<Supplier>> GetByMachine(string sewingmachine, CancellationToken cancellationToken);
-
-        // public Task<Supplier> GetByMaterials(string material, CancellationToken cancellationToken);
     }
 }

@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FashionTrend.API.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class SupplierController : ControllerBase
     {
         IMediator _mediator;

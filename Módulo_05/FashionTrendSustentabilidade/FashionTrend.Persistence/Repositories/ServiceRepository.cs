@@ -27,18 +27,10 @@ namespace FashionTrend.Persistence.Repositories
             return await Context.Services.Where(
             x => x.Materials.Any(s => s.Equals(material))).ToListAsync(cancellationToken);
         }
-        /*public async Task<Service> GetByMaterial(string material, CancellationToken cancellationToken)
-        {
-            return await Context.Services.FirstOrDefaultAsync(
-            x => x.Materials.Equals(material), cancellationToken);
-        }*/
-
         public async Task<List<Service>> GetByType(string type, CancellationToken cancellationToken)
         {
             return await Context.Services.Where(
             x => x.Type.Any(s => s.Equals(type))).ToListAsync(cancellationToken);
-        }
-
-        
+        }  
     }
 }
