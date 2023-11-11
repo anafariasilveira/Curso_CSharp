@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using FashionTrend.Domain.Entities;
 
-namespace FashionTrend.Application.UseCases.CreateServiceOrder
+namespace FashionTrend.Application.UseCases.ServicesOrder.CreateServiceOrder
 {
     public class CreateServiceOrderMapper : Profile
     {

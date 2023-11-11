@@ -1,4 +1,5 @@
-﻿using FashionTrend.Application.UseCases.CreateServiceOrder;
+﻿using FashionTrend.Application.UseCases.ServicesOrder.CreateServiceOrder;
+using FashionTrend.Application.UseCases.ServicesOrder.GetAllServiceOrder;
 using FashionTrend.Domain.Interfaces;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -10,15 +11,13 @@ namespace FashionTrend.API.Controllers
     public class ServiceOrderController : ControllerBase
     {
         IMediator _mediator;
-        private readonly IServiceOrderRepository _serviceOrderRepository;
-
-        public ServiceOrderController(IMediator mediator, IServiceOrderRepository serviceOrderRepository)
+     
+        public ServiceOrderController(IMediator mediator)
         {
             _mediator = mediator;
-            _serviceOrderRepository = serviceOrderRepository;
         }
         [HttpPost]
-        public async Task<IActionResult> Create(GetAllServiceOrderRequest request)
+        public async Task<IActionResult> Create(CreateServiceOrderRequest request)
         {
             var serviceOrder = await _mediator.Send(request);
             return Ok(serviceOrder);

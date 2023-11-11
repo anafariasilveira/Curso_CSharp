@@ -18,7 +18,7 @@ namespace FashionTrend.Persistence.Repositories
                 x => x.ServiceId.Equals(idService), cancellationToken);
         }
 
-        public async Task<ServiceOrder> GetByStatus(ERequestStatus status, CancellationToken cancellationToken)
+        public async Task<ServiceOrder> GetByStatus(EContractStatus status, CancellationToken cancellationToken)
         {
             return await Context.ServicesOrder.FirstOrDefaultAsync(
                 x => x.Status.Equals(status), cancellationToken);

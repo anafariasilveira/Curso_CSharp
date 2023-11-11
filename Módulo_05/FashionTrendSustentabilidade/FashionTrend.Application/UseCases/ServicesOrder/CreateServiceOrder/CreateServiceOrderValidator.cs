@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace FashionTrend.Application.UseCases.CreateServiceOrder
+namespace FashionTrend.Application.UseCases.ServicesOrder.CreateServiceOrder
 {
     public class CreateServiceOrderValidator : AbstractValidator<CreateServiceOrderRequest>
     {

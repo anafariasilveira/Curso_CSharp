@@ -1,8 +1,8 @@
 ﻿using FashionTrend.Domain.Enums;
 
-namespace FashionTrend.Domain.Entities
+namespace FashionTrend.Application.UseCases.Contracts.CreateServiceContract
 {
-    public class ServiceContract : BaseEntity
+    public sealed record CreateServiceContractResponse
     {
         public Guid OrderId { get; set; }
         public Guid SupplierId { get; set; }

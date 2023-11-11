@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace FashionTrend.Application.UseCases.CreateSupplier
+namespace FashionTrend.Application.UseCases.Suppliers.CreateSupplier
 {
     public sealed class CreateSupplierValidator : AbstractValidator<CreateSupplierRequest>
     {

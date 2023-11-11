@@ -1,7 +1,7 @@
 ﻿using FashionTrend.Domain.Entities;
 using AutoMapper;
 
-namespace FashionTrend.Application.UseCases.CreateSupplier
+namespace FashionTrend.Application.UseCases.Suppliers.CreateSupplier
 {
     public class CreateSupplierMapper : Profile
     {

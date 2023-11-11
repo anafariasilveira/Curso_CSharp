@@ -3,7 +3,7 @@ using FashionTrend.Domain.Entities;
 using FashionTrend.Domain.Interfaces;
 using MediatR;
 
-namespace FashionTrend.Application.UseCases.CreateSupplier
+namespace FashionTrend.Application.UseCases.Suppliers.CreateSupplier
 {
     public class CreateSupplierHandler : IRequestHandler<CreateSupplierRequest, CreateSupplierResponse>
     {

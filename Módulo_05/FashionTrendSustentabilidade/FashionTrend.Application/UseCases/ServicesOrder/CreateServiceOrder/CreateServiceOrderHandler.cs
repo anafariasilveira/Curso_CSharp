@@ -3,7 +3,7 @@ using FashionTrend.Domain.Entities;
 using FashionTrend.Domain.Interfaces;
 using MediatR;
 
-namespace FashionTrend.Application.UseCases.CreateServiceOrder
+namespace FashionTrend.Application.UseCases.ServicesOrder.CreateServiceOrder
 {
     public class CreateServiceOrderHandler : IRequestHandler<CreateServiceOrderRequest, CreateServiceOrderResponse>
     {

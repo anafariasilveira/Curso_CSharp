@@ -1,10 +1,5 @@
 ﻿using FashionTrend.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FashionTrend.Persistence.Context
 {
@@ -25,6 +20,7 @@ namespace FashionTrend.Persistence.Context
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<ServiceOrder> ServicesOrder { get; set; }
+        public DbSet<ServiceContract> ServiceContract { get; set; }
 
     }
 }

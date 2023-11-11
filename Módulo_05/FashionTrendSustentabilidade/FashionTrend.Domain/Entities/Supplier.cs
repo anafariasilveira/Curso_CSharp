@@ -1,6 +1,4 @@
 ﻿using FashionTrend.Domain.Enums;
-using System.ComponentModel.DataAnnotations;
-
 
 namespace FashionTrend.Domain.Entities
 {

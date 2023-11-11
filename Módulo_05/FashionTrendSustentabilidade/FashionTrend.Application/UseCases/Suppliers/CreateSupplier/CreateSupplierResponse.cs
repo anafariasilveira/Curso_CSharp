@@ -1,6 +1,6 @@
 ﻿using FashionTrend.Domain.Enums;
 
-namespace FashionTrend.Application.UseCases.CreateSupplier
+namespace FashionTrend.Application.UseCases.Suppliers.CreateSupplier
 {
     public sealed record CreateSupplierResponse
     {
