@@ -8,6 +8,5 @@ namespace FashionTrend.Domain.Interfaces
         public Task<ServiceOrder> GetBySupplierId(Guid idSupplier, CancellationToken cancellationToken);
         public Task<ServiceOrder> GetByServiceId(Guid idService, CancellationToken cancellationToken);
         public Task<ServiceOrder> GetByStatus(ERequestStatus status, CancellationToken cancellationToken);
-        //Task GetServiceOrder();
     }
 }

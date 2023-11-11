@@ -14,7 +14,7 @@ namespace FashionTrend.Application.UseCases.CreateServiceOrder
         public CreateServiceOrderHandler(IUnitOfWork unitOfWork, IServiceOrderRepository serviceOrderRepository, IMapper mapper)
         {
             _mapper = mapper;
-            _unitOfWork = unitOfWork;  
+            _unitOfWork = unitOfWork;
             _serviceOrderRepository = serviceOrderRepository;
         }
         public async Task<CreateServiceOrderResponse> Handle(CreateServiceOrderRequest request, CancellationToken cancellationToken)

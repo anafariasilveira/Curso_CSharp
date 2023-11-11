@@ -31,6 +31,8 @@ namespace FashionTrend.Persistence.Repositories
         {
             return await Context.Services.Where(
             x => x.Type.Any(s => s.Equals(type))).ToListAsync(cancellationToken);
-        }  
+        }
+
+        
     }
 }

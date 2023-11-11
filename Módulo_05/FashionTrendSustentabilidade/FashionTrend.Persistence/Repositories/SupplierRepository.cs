@@ -23,6 +23,7 @@ namespace FashionTrend.Persistence.Repositories
             return await Context.Suppliers.FirstOrDefaultAsync(
             x => x.Email.Equals(email), cancellationToken);
         }
+
         public async Task<List<Supplier>> GetByMachine(string sewingmachine, CancellationToken cancellationToken)
         {
             return await Context.Suppliers.Where(

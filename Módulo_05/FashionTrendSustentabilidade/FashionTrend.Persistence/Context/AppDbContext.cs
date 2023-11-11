@@ -25,6 +25,6 @@ namespace FashionTrend.Persistence.Context
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<ServiceOrder> ServicesOrder { get; set; }
-        
+
     }
 }
