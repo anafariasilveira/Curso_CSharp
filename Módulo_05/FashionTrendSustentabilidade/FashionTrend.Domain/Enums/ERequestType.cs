@@ -1,8 +1,5 @@
-﻿namespace FashionTrend.Domain.Enums
+﻿public enum ERequestType
 {
-    public enum ERequestType
-    {
-        Repair = 1,
-        Manufactoring = 2
-    }
+    Repair = 1,
+    Manufactoring = 2
 }

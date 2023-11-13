@@ -1,15 +1,11 @@
-﻿using FashionTrend.Domain.Entities;
-using AutoMapper;
+﻿using AutoMapper;
 
-namespace FashionTrend.Application.UseCases.Suppliers.CreateSupplier
+public class CreateSupplierMapper : Profile
 {
-    public class CreateSupplierMapper : Profile
+    public CreateSupplierMapper()
     {
-        public CreateSupplierMapper()
-        {
-            CreateMap<CreateSupplierRequest, Supplier>();
-            CreateMap<Supplier, CreateSupplierResponse>();
-        }
-
+        CreateMap<CreateSupplierRequest, Supplier>();
+        CreateMap<Supplier, CreateSupplierResponse>();
     }
+
 }

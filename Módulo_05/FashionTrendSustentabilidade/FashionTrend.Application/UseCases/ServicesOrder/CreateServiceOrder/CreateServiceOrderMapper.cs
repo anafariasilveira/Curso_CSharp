@@ -1,14 +1,10 @@
 ﻿using AutoMapper;
-using FashionTrend.Domain.Entities;
 
-namespace FashionTrend.Application.UseCases.ServicesOrder.CreateServiceOrder
+public class CreateServiceOrderMapper : Profile
 {
-    public class CreateServiceOrderMapper : Profile
+    public CreateServiceOrderMapper()
     {
-        public CreateServiceOrderMapper()
-        {
-            CreateMap<CreateServiceOrderRequest, ServiceOrder>();
-            CreateMap<ServiceOrder, CreateServiceOrderResponse>();
-        }
+        CreateMap<CreateServiceOrderRequest, ServiceOrder>();
+        CreateMap<ServiceOrder, CreateServiceOrderResponse>();
     }
 }

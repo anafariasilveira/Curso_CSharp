@@ -1,5 +1,4 @@
-﻿using FashionTrend.Application.UseCases.Contracts.CreateServiceContract;
-using MediatR;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FashionTrend.API.Controllers

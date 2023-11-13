@@ -1,6 +1,4 @@
 using FashionTrend.API.Extensions;
-using FashionTrend.Application.Services;
-using FashionTrend.Persistence.Repositories;
 
 namespace FashionTrend.API
 {

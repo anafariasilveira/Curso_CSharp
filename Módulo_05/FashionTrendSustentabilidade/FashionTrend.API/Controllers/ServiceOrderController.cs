@@ -1,7 +1,4 @@
-﻿using FashionTrend.Application.UseCases.ServicesOrder.CreateServiceOrder;
-using FashionTrend.Application.UseCases.ServicesOrder.GetAllServiceOrder;
-using FashionTrend.Domain.Interfaces;
-using MediatR;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FashionTrend.API.Controllers

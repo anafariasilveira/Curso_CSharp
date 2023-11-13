@@ -1,22 +1,17 @@
 ﻿using FluentValidation;
 using MediatR;
-using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
-using FashionTrend.Application.Shared.Behavior;
-
-namespace FashionTrend.Application.Services
+using System.Reflection;
+public static class ServiceExtensions
 {
-    public static class ServiceExtensions
+    public static void ConfigureApplicationApp(this IServiceCollection services)
     {
-        public static void ConfigureApplicationApp(this IServiceCollection services)
-        {
-            services.AddAutoMapper(Assembly.GetExecutingAssembly());
-            services.AddMediatR(cfg =>
-                                cfg.RegisterServicesFromAssemblies
-                                (Assembly.GetExecutingAssembly()));
-            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
-            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+        services.AddAutoMapper(Assembly.GetExecutingAssembly());
+        services.AddMediatR(cfg =>
+                            cfg.RegisterServicesFromAssemblies
+                            (Assembly.GetExecutingAssembly()));
+        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+        services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
-        }
     }
 }

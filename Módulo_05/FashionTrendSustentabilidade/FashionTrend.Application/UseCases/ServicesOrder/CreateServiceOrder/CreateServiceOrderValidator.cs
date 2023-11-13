@@ -1,12 +1,9 @@
 ﻿using FluentValidation;
 
-namespace FashionTrend.Application.UseCases.ServicesOrder.CreateServiceOrder
+public class CreateServiceOrderValidator : AbstractValidator<CreateServiceOrderRequest>
 {
-    public class CreateServiceOrderValidator : AbstractValidator<CreateServiceOrderRequest>
+    public CreateServiceOrderValidator()
     {
-        public CreateServiceOrderValidator()
-        {
-            RuleFor(x => x.Status);
-        }
+        RuleFor(x => x.Status);
     }
 }

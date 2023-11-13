@@ -1,6 +1,4 @@
-﻿using FashionTrend.Persistence.Context;
-
-    public class BD
+﻿    public class BD
     {
         public static void CreateDataBase(WebApplication app)
         {
