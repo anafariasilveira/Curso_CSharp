@@ -32,7 +32,7 @@ using Microsoft.AspNetCore.Mvc;
         [HttpGet]
         public async Task<ActionResult<List<GetAllSupplierResponse>>> GetAll(CancellationToken cancellationToken)
         {
-            var response = _mediator.Send(new GetAllSupplierRequest(), cancellationToken);
+            var response = await _mediator.Send(new GetAllSupplierRequest(), cancellationToken);
             return Ok(response);
         }
         [HttpGet("{id}")]

@@ -23,7 +23,7 @@ namespace FashionTrend.API.Controllers
         [HttpGet] 
         public async Task<ActionResult<List<GetAllServiceOrderResponse>>> GetAll(CancellationToken cancellationToken)
         {
-            var response = _mediator.Send(new GetAllServiceOrderRequest(), cancellationToken);
+            var response = await _mediator.Send(new GetAllServiceOrderRequest(), cancellationToken);
             return Ok(response);
         }
     }
