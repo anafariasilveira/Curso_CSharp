@@ -9,10 +9,11 @@ public class CreateSupplierHandler : IRequestHandler<CreateSupplierRequest, Crea
 
     public CreateSupplierHandler(IUnitOfWork unitOfWork, ISupplierRepository supplierRepository, IMapper mapper)
     {
-        _mapper = mapper;
-        _supplierRepository = supplierRepository;
         _unitOfWork = unitOfWork;
+        _supplierRepository = supplierRepository;
+        _mapper = mapper;
     }
+
     public async Task<CreateSupplierResponse> Handle(CreateSupplierRequest request, CancellationToken cancellationToken)
     {
         var supplier = _mapper.Map<Supplier>(request);
@@ -20,6 +21,7 @@ public class CreateSupplierHandler : IRequestHandler<CreateSupplierRequest, Crea
         _supplierRepository.Create(supplier);
 
         await _unitOfWork.Commit(cancellationToken);
+
         return _mapper.Map<CreateSupplierResponse>(supplier);
     }
 }

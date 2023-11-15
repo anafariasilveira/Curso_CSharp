@@ -1,8 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FashionTrend.API.Controllers
-{
     [Route("api/[controller]")]
     [ApiController]
     public class SupplierController : ControllerBase
@@ -15,18 +13,18 @@ namespace FashionTrend.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(CreateServiceContractRequest request)
+        public async Task<IActionResult> Create(CreateSupplierRequest request)
         {
-            var user = await _mediator.Send(request);
-            return Ok(user);
+            var supplier = await _mediator.Send(request);
+            return Ok(supplier);
         }
         [HttpPut("{id}")]
-        public async Task<ActionResult<UpdateSupplierResponse>>Update(
+        public async Task<ActionResult<UpdateSupplierResponse>> Update(
                                             Guid id, UpdateSupplierRequest request, CancellationToken cancellationToken)
         {
             if (id != request.Id)
             {
-                return BadRequest("Informe o Id");
+                return BadRequest();
             }
             var response = await _mediator.Send(request, cancellationToken);
             return Ok(response);
@@ -37,16 +35,28 @@ namespace FashionTrend.API.Controllers
             var response = _mediator.Send(new GetAllSupplierRequest(), cancellationToken);
             return Ok(response);
         }
-        //[HttpGet("{id}")]
-        //public async Task<ActionResult<List<GetSupplierResponse>>> Get(Guid Id, GetSupplierRequest request, 
-        //                                                                            CancellationToken cancellationToken)
-        //{
-        //   if(Id != request.Id)
-        //   {
-        //        return BadRequest();
-        //   }
-        //    var response = await _mediator.Send(request, cancellationToken);
-        //    return Ok(response);
-        //}
+        [HttpGet("{id}")]
+        public async Task<ActionResult<GetAllSupplierResponse>> Get(Guid? id, CancellationToken cancellationToken)
+        {
+            if (id is null)
+            {
+                return BadRequest();
+            }
+
+            var request = new GetSupplierRequest(id.Value);
+            var response = await _mediator.Send(request, cancellationToken);
+            return Ok(response);
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid? id, CancellationToken cancellationToken)
+        {
+        if (id is null)
+        {
+            return BadRequest();
+        }
+
+        var deleteRequest = new DeleteSupplierRequest(id.Value);
+        var response = await _mediator.Send(deleteRequest, cancellationToken);
+        return Ok(response);
+        }
     }
-}

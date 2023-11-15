@@ -19,7 +19,7 @@ public class ServiceRepository : BaseRepository<Service>, IServiceRepository
     public async Task<List<Service>> GetByType(string type, CancellationToken cancellationToken)
     {
         return await Context.Services.Where(
-        x => x.Type.Any(s => s.Equals(type))).ToListAsync(cancellationToken);
+        x => x.RequestsType.Any(s => s.Equals(type))).ToListAsync(cancellationToken);
     }
 
 

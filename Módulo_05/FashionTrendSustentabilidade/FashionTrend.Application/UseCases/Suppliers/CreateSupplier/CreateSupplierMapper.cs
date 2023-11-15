@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-
 public class CreateSupplierMapper : Profile
 {
     public CreateSupplierMapper()
@@ -7,5 +6,4 @@ public class CreateSupplierMapper : Profile
         CreateMap<CreateSupplierRequest, Supplier>();
         CreateMap<Supplier, CreateSupplierResponse>();
     }
-
 }

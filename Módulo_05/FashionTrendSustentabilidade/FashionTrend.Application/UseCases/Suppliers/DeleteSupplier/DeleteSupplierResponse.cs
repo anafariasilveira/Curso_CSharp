@@ -1,5 +1,6 @@
-﻿public sealed record CreateSupplierResponse
+﻿public sealed record DeleteSupplierResponse
 {
+    public Guid Id { get; set; }
     public string Name { get; set; }
     public string Email { get; set; }
     public List<EMaterial> Materials { get; set; }

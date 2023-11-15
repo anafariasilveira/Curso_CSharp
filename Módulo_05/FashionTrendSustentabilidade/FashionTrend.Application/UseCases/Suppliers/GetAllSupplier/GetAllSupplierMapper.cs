@@ -6,5 +6,4 @@ public class GetAllSupplierMapper : Profile
     {
         CreateMap<Supplier, GetAllSupplierResponse>();
     }
-
 }
