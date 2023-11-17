@@ -1,4 +1,4 @@
-﻿public sealed record GetAllSupplierResponse
+﻿public sealed record GetByMachineSupplierResponse
 {
     public Guid Id { get; set; }
     public string? Name { get; set; }

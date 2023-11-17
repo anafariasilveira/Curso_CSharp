@@ -12,4 +12,9 @@ public class SupplierRepository : BaseRepository<Supplier>, ISupplierRepository
         return await Context.Suppliers.FirstOrDefaultAsync(
             x => x.Email.Equals(email), cancellationToken);
     }
+    public async Task<Supplier> GetByMachines(List<ESewingMachine> machines, CancellationToken cancellationToken)
+    {
+        return await Context.Suppliers.FirstOrDefaultAsync(
+            x => x.SewingMachines.Equals(machines), cancellationToken);
+    }
 } 
