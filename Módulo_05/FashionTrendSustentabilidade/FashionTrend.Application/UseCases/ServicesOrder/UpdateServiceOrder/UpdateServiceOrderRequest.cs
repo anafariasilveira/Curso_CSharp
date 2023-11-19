@@ -5,4 +5,4 @@ public sealed record UpdateServiceOrderRequest(
         Guid supplierId,
         Guid serviceId,
         DateTimeOffset estimateDate,
-        EContractStatus status) : IRequest<UpdateServiceOrderResponse>;
+        ERequestType type) : IRequest<UpdateServiceOrderResponse>;

@@ -4,6 +4,7 @@ public class GetByMachineSupplierMapper : Profile
 {
     public GetByMachineSupplierMapper()
     {
-           CreateMap<ESewingMachine, GetByMachineSupplierResponse>();
+        CreateMap<GetByMachineSupplierRequest, Supplier>();
+        CreateMap<Supplier, GetByMachineSupplierResponse>();
     }
 }

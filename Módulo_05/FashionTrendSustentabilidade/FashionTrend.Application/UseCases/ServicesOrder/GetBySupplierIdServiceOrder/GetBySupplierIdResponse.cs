@@ -1,4 +1,4 @@
-﻿public sealed record UpdateServiceOrderResponse
+﻿public sealed record GetBySupplierIdResponse
 {
     public Guid SupplierId { get; set; }
     public Guid ServiceId { get; set; }

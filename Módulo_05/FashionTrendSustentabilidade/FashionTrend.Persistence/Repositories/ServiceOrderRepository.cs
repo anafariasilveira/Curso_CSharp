@@ -12,10 +12,10 @@ public class ServiceOrderRepository : BaseRepository<ServiceOrder>, IServiceOrde
             x => x.ServiceId.Equals(idService), cancellationToken);
     }
 
-    public async Task<ServiceOrder> GetByStatus(EContractStatus status, CancellationToken cancellationToken)
+    public async Task<ServiceOrder> GetByType(ERequestType type, CancellationToken cancellationToken)
     {
         return await Context.ServicesOrder.FirstOrDefaultAsync(
-            x => x.Status.Equals(status), cancellationToken);
+            x => x.Type.Equals(type), cancellationToken);
     }
 
     public async Task<ServiceOrder> GetBySupplierId(Guid idSupplier, CancellationToken cancellationToken)

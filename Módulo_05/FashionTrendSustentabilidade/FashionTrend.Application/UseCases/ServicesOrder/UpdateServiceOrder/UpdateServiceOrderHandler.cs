@@ -22,7 +22,7 @@ public class UpdateServiceOrderHandler : IRequestHandler<UpdateServiceOrderReque
         serviceOrder.SupplierId = command.supplierId;
         serviceOrder.ServiceId = command.serviceId;
         serviceOrder.EstimatedDate = command.estimateDate;
-        serviceOrder.Status = command.status;
+        serviceOrder.Type = command.type;
         
         _serviceOrderRepository.Update(serviceOrder);
 

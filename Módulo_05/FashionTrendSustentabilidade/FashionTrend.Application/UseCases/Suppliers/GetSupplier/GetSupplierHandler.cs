@@ -3,7 +3,6 @@ using MediatR;
 
 public class GetSupplierHandler : IRequestHandler<GetSupplierRequest, GetSupplierResponse>
 {
-    private readonly IUnitOfWork _unitOfWork;
     private readonly ISupplierRepository _supplierRepository;
     private readonly IMapper _mapper;
 
@@ -11,7 +10,6 @@ public class GetSupplierHandler : IRequestHandler<GetSupplierRequest, GetSupplie
     {
         _mapper = mapper;
         _supplierRepository = supplierRepository;
-        _unitOfWork = unitOfWork;
     }
     public async Task<GetSupplierResponse> Handle(GetSupplierRequest request, CancellationToken cancellationToken)
     {

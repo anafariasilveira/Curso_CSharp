@@ -1,9 +1,8 @@
 ﻿using AutoMapper;
 using MediatR;
 
-public class GetByMachineSupplierHandler : IRequestHandler<GetByMachineSupplierRequest, GetByMachineSupplierResponse>
+public class GetByMachineSupplierHandler : IRequestHandler<GetByMachineSupplierRequest, IEnumerable<GetByMachineSupplierResponse>>
 {
-    private readonly IUnitOfWork _unitOfWork;
     private readonly ISupplierRepository _supplierRepository;
     private readonly IMapper _mapper;
 
@@ -11,11 +10,10 @@ public class GetByMachineSupplierHandler : IRequestHandler<GetByMachineSupplierR
     {
         _mapper = mapper;
         _supplierRepository = supplierRepository;
-        _unitOfWork = unitOfWork;
     }
-    public async Task<GetByMachineSupplierResponse> Handle(GetByMachineSupplierRequest request, CancellationToken cancellationToken)
+    public async Task<IEnumerable<GetByMachineSupplierResponse>> Handle(GetByMachineSupplierRequest request, CancellationToken cancellationToken)
     {
         var supplierMachine = await _supplierRepository.GetByMachines(request.Machine, cancellationToken);
-        return _mapper.Map<GetByMachineSupplierResponse>(supplierMachine);
+        return _mapper.Map<IEnumerable<GetByMachineSupplierResponse>>(supplierMachine);
     }
 }

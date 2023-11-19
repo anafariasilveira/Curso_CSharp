@@ -59,12 +59,12 @@ public class SupplierController : ControllerBase
         var response = await _mediator.Send(deleteRequest, cancellationToken);
         return Ok(response);
     }
-    //[HttpGet("{machine}")]
-    //public async Task<ActionResult<GetByMachineSupplierResponse>> GetByMachine
-    //                                        (List<ESewingMachine>? machine, CancellationToken cancellationToken)
-    //{
-    //    var machineRequest = new GetByMachineSupplierRequest(machine);
-    //    var response = await _mediator.Send(machineRequest, cancellationToken);
-    //    return Ok(response);
-    //}
+    [HttpGet("{machine}", Name = "GetByMachine")]
+    public async Task<ActionResult<GetByMachineSupplierResponse>> GetByMachine
+                                            (ESewingMachine machine, CancellationToken cancellationToken)
+    {
+        var machineRequest = new GetByMachineSupplierRequest(machine);
+        var response = await _mediator.Send(machineRequest, cancellationToken);
+        return Ok(response);
+    }
 }

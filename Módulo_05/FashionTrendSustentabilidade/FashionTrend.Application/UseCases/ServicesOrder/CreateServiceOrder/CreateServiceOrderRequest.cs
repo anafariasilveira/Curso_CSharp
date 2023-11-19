@@ -4,5 +4,5 @@ public sealed record CreateServiceOrderRequest(
         Guid SupplierId,
         Guid ServiceId,
         DateTimeOffset EstimateDate,
-        EContractStatus Status
+        ERequestType Type
         ) : IRequest<CreateServiceOrderResponse>;
