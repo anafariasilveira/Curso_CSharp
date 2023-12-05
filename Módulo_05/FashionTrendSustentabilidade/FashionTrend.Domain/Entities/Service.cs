@@ -5,4 +5,5 @@
     public List<ERequestType> RequestsType { get; set; }
     public List<ESewingMachine> SewingMachines { get; set; }
     public List<EMaterial> Materials { get; set; }
+    public int ServiceDays { get; set; }
 }

@@ -59,7 +59,7 @@ public class SupplierController : ControllerBase
         var response = await _mediator.Send(deleteRequest, cancellationToken);
         return Ok(response);
     }
-    [HttpGet("{machine}", Name = "GetByMachine")]
+    [HttpGet("machine/{machine}")]
     public async Task<ActionResult<GetByMachineSupplierResponse>> GetByMachine
                                             (ESewingMachine machine, CancellationToken cancellationToken)
     {

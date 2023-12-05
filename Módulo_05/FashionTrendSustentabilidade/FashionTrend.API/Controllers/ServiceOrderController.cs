@@ -47,7 +47,7 @@ public class ServiceOrderController : ControllerBase
         var response = await _mediator.Send(deleteRequest, cancellationToken);
         return Ok(response);
     }
-    [HttpGet("{supplierId}")]
+    [HttpGet("supplierId/{supplierId}")]
     public async Task<IActionResult> GetBySupplierId(Guid? supplierId, CancellationToken cancellationToken)
     {
         if (supplierId is null)
@@ -58,7 +58,7 @@ public class ServiceOrderController : ControllerBase
         var response = await _mediator.Send(request, cancellationToken);
         return Ok(response);
     }
-    [HttpGet("{type}")]
+    [HttpGet("type/{type}")]
     public async Task<ActionResult<GetByTypeRequest>> GetByType(ERequestType type, CancellationToken cancellationToken)
     {
         var request = new GetByTypeRequest(type);
