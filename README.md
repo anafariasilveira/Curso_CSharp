@@ -44,7 +44,7 @@ Aprendemons conceitos de metodologias ágies e aprofundamos nosso aprendizado em
 Fizemos o deep dive um projeto, assim como também estruturamos os microsserviços e as APIs que iremos construir no próximo módulo 👩‍💻
 
 
-## [*Módulo 5:* Arquitetura de Software e Ágil II (C#) ⏳](https://github.com/anafariasilveira/Curso_CSharp/tree/main/M%C3%B3dulo_05)
+## [*Módulo 5:* Arquitetura de Software e Ágil II (C#) ✔](https://github.com/anafariasilveira/Curso_CSharp/tree/main/M%C3%B3dulo_05)
 
 Neste módulo, estamos construindo um projeto com todo conhecimento adquirido no módulo anterior. 
 
