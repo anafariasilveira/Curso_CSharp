@@ -60,11 +60,10 @@ public class SupplierController : ControllerBase
         return Ok(response);
     }
     [HttpGet("machine/{machine}")]
-    public async Task<ActionResult<GetByMachineSupplierResponse>> GetByMachine
-                                            (ESewingMachine machine, CancellationToken cancellationToken)
+    public async Task<ActionResult<GetByMachineSupplierResponse>> GetByMachine(ESewingMachine machine, CancellationToken cancellationToken)
     {
-        var machineRequest = new GetByMachineSupplierRequest(machine);
-        var response = await _mediator.Send(machineRequest, cancellationToken);
+        var GetRequest = new GetByMachineSupplierRequest(machine);
+        var response = await _mediator.Send(GetRequest, cancellationToken);
         return Ok(response);
     }
 }

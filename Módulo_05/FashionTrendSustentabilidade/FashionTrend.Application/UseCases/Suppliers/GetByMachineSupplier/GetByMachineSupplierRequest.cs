@@ -1,4 +1,3 @@
 ﻿using MediatR;
 
-public sealed record GetByMachineSupplierRequest(ESewingMachine Machine) : 
-                                                                        IRequest<IEnumerable<GetByMachineSupplierResponse>>;
+public sealed record GetByMachineSupplierRequest(ESewingMachine Machine) :                                                                                                          IRequest<List<GetByMachineSupplierResponse>>;
