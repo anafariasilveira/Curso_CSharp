@@ -38,14 +38,12 @@ public class AppDbContext : DbContext
                       .ToList());
 
         modelBuilder.Entity<Supplier>()
-           .Property(e => e.SewingMachines)
-           .HasConversion(
-               v => string.Join(",", v.Select(s => s.ToString())),
-               v => v.Split(',', StringSplitOptions.RemoveEmptyEntries)
-                     .Select(s => (ESewingMachine)Enum.Parse(typeof(ESewingMachine), s))
-                     .ToList());
-
-
+            .Property(e => e.SewingMachines)
+            .HasConversion(
+                v => string.Join(",", v.Select(s => s.ToString())),
+                v => v.Split(',', StringSplitOptions.RemoveEmptyEntries)
+                      .Select(s => (ESewingMachine)Enum.Parse(typeof(ESewingMachine), s))
+                      .ToList());
 
         base.OnModelCreating(modelBuilder);
     }

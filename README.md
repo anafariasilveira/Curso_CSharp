@@ -44,7 +44,7 @@ Aprendemons conceitos de metodologias ágies e aprofundamos nosso aprendizado em
 Fizemos o deep dive um projeto, assim como também estruturamos os microsserviços e as APIs que iremos construir no próximo módulo 👩‍💻
 
 
-## [*Módulo 5:* Arquitetura de Software e Ágil II (C#) ⏳](https://github.com/anafariasilveira/Curso_CSharp/tree/main/M%C3%B3dulo_05)
+## [*Módulo 5:* Arquitetura de Software e Ágil II (C#) ✔](https://github.com/anafariasilveira/Curso_CSharp/tree/main/M%C3%B3dulo_05)
 
 Neste módulo, estamos construindo um projeto com todo conhecimento adquirido no módulo anterior. 
 
@@ -52,6 +52,15 @@ Aplicaremos conceitos de SOLID e de metodologias ágeis em todo o projeto. Este 
 
 [Ana Paula](https://github.com/anafariasilveira) (eu 😁), [Daniela Rocha](https://github.com/danirocha87), [Gabriela Bosshard](https://github.com/gzbosshard), [Karen Viana](https://github.com/karenpjviana), [Liliane Souza](https://github.com/Lilianeacs), [Luelen Carvalheiro](https://github.com/luelencavalheiro), [Natalia Franceschi](https://github.com/NataliaFranceschi), [Nayara Lima](https://github.com/naylima) e [Morgana Larissa](https://github.com/morganalarissa).
 
-## *Módulo 6:* Testes Automatizados I (C#) ⏳
+## [*Módulo 6:* Testes Automatizados I (C#) ⏳](https://github.com/anafariasilveira/Curso_CSharp/tree/main/M%C3%B3dulo_06)
+
+Neste último módulo 😥 aplicaremos os testes unitários nio projeto desenvolvido no módulo anterior. 
+
+Aprendemos também sobre:
+
+* FluentAssertions;
+* xUnit;
+* Mock;
+* TDD;
 
 
