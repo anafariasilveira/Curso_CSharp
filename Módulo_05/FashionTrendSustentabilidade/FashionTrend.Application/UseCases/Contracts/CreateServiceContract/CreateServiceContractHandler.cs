@@ -4,10 +4,10 @@ using MediatR;
 public class CreateServiceContractHandler : IRequestHandler<CreateServiceContractRequest, CreateServiceContractResponse>
 {
     private readonly IUnitOfWork _unitOfWork;
-    private readonly IServiceContractRepository _serviceContractRepository;
+    private readonly IContractRepository _serviceContractRepository;
     private readonly IMapper _mapper;
 
-    public CreateServiceContractHandler(IUnitOfWork unitOfWork, IServiceContractRepository serviceContractRepository, IMapper mapper)
+    public CreateServiceContractHandler(IUnitOfWork unitOfWork, IContractRepository serviceContractRepository, IMapper mapper)
     {
         _mapper = mapper;
         _serviceContractRepository = serviceContractRepository;

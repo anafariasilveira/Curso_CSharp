@@ -1,33 +1,45 @@
 ﻿using AutoMapper;
 using MediatR;
+using Microsoft.Extensions.Logging;
 
 public class UpdateServiceOrderHandler : IRequestHandler<UpdateServiceOrderRequest, UpdateServiceOrderResponse>
 {
     private readonly IUnitOfWork _unitOfWork;
     private readonly IServiceOrderRepository _serviceOrderRepository;
     private readonly IMapper _mapper;
+    private readonly ILogger<UpdateServiceOrderHandler> _logger;
 
-    public UpdateServiceOrderHandler(IUnitOfWork unitOfWork, IServiceOrderRepository serviceOrderRepository, IMapper mapper)
+    public UpdateServiceOrderHandler(IUnitOfWork unitOfWork, IServiceOrderRepository serviceOrderRepository, IMapper mapper, ILogger<UpdateServiceOrderHandler> logger)
     {
         _mapper = mapper;
         _serviceOrderRepository = serviceOrderRepository;
         _unitOfWork = unitOfWork;
+        _logger = logger;
     }
-    public async Task<UpdateServiceOrderResponse> Handle(UpdateServiceOrderRequest command, CancellationToken cancellationToken)
+    public async Task<UpdateServiceOrderResponse> Handle(UpdateServiceOrderRequest request, CancellationToken cancellationToken)
     {
-        var serviceOrder = await _serviceOrderRepository.Get(command.Id, cancellationToken);
+        try
+        {
+            var serviceOrder = await _serviceOrderRepository.Get(request.Id, cancellationToken);
 
-        if (serviceOrder is null) return default;
+            if (serviceOrder is null)
+                throw new ArgumentException("ServiceOrder não encontrado");
 
-        serviceOrder.SupplierId = command.supplierId;
-        serviceOrder.ServiceId = command.serviceId;
-        serviceOrder.EstimatedDate = command.estimateDate;
-        serviceOrder.Type = command.type;
-        
-        _serviceOrderRepository.Update(serviceOrder);
+            serviceOrder.Status = request.Status;
 
-        await _unitOfWork.Commit(cancellationToken);
+            if (serviceOrder.Status == EContractStatus.Completed)
+                serviceOrder.Payment = true;
 
-        return _mapper.Map<UpdateServiceOrderResponse>(serviceOrder);
+            _serviceOrderRepository.Update(serviceOrder);
+
+            await _unitOfWork.Commit(cancellationToken);
+
+            return _mapper.Map<UpdateServiceOrderResponse>(serviceOrder);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Ocorreu um erro no método Update ServiceOrder por ID.", request.Id);
+            throw;
+        }
     }
 }

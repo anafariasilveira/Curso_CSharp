@@ -1,3 +1,3 @@
 ﻿using MediatR;
 
-public sealed record GetByTypeRequest(ERequestType Type) : IRequest<IEnumerable<GetByTypeResponse>>;
+public sealed record GetByTypeRequest(ERequestType Type) : IRequest<List<GetByTypeResponse>>;

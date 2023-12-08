@@ -4,17 +4,14 @@ public class AppDbContext : DbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
-
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Service>()
-           .Property(e => e.RequestsType)
+           .Property(e => e.RequestType)
            .HasConversion(
-               v => string.Join(",", v.Select(s => s.ToString())),
-               v => v.Split(',', StringSplitOptions.RemoveEmptyEntries)
-                     .Select(s => (ERequestType)Enum.Parse(typeof(ERequestType), s))
-                     .ToList());
+               v => v.ToString(),
+               v => (ERequestType)Enum.Parse(typeof(ERequestType), v));
 
         modelBuilder.Entity<Service>()
            .Property(e => e.Materials)
@@ -52,9 +49,10 @@ public class AppDbContext : DbContext
 
         base.OnModelCreating(modelBuilder);
     }
-
     public DbSet<Supplier> Suppliers { get; set; }
     public DbSet<Service> Services { get; set; }
     public DbSet<ServiceOrder> ServicesOrder { get; set; }
-    public DbSet<ServiceContract> ServiceContract { get; set; }
+    public DbSet<Contract> Contracts { get; set; }
+    public DbSet<Payment> Payments { get; set; }
+    public DbSet<DraftContract> DraftContracts { get; set; }
 }

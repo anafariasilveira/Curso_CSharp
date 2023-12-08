@@ -1,8 +1,9 @@
 ﻿using MediatR;
 
 public sealed record CreateServiceOrderRequest(
-        Guid SupplierId,
-        Guid ServiceId,
-        DateTimeOffset EstimateDate,
-        ERequestType Type
-        ) : IRequest<CreateServiceOrderResponse>;
+    Supplier Supplier,
+    Service Service,
+    DateTimeOffset EstimetedDate,
+    EContractStatus Status,
+    bool Payment
+    ) : IRequest<CreateServiceOrderResponse>;

@@ -1,4 +1,5 @@
 ﻿using Confluent.Kafka;
+using Microsoft.Extensions.Logging;
 
 public class KafkaConsumer : IKafkaConsumer
 {
@@ -7,10 +8,12 @@ public class KafkaConsumer : IKafkaConsumer
     public event EventHandler<MessageReceivedEventArgs> OnMessageReceived;
 
     private IConsumer<Ignore, string> consumer;
+
+    private readonly ILogger<KafkaConsumer> _logger;
     public async Task StartConsumingAsync(CancellationToken cancellationToken)
     {
         isConsuming = true;
-        while(isConsuming)
+        while (isConsuming)
         {
             try
             {
@@ -27,10 +30,9 @@ public class KafkaConsumer : IKafkaConsumer
             }
             catch (Exception ex)
             {
-
+                _logger.LogError(ex, "Ocorreu um erro no método StarConsumingAsync no KafkaConsumer.");
             }
         }
-            
     }
     public void StopConsuming()
     {
@@ -39,16 +41,23 @@ public class KafkaConsumer : IKafkaConsumer
     }
     public void Subscribe(string topic, string group)
     {
-        var config = new ConsumerConfig
+        try
         {
-            BootstrapServers = "localhost:9092",
-            GroupId = group,
-            AutoOffsetReset = AutoOffsetReset.Earliest,
-            EnableAutoCommit = false
-        };
-        consumer = new ConsumerBuilder<Ignore, string>(config).Build();
+            var config = new ConsumerConfig
+            {
+                BootstrapServers = "localhost:9092",
+                GroupId = group,
+                AutoOffsetReset = AutoOffsetReset.Earliest,
+                EnableAutoCommit = false
+            };
+            consumer = new ConsumerBuilder<Ignore, string>(config).Build();
 
-        consumer.Subscribe(topic);
+            consumer.Subscribe(topic);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Ocorreu um erro no método de Subscrib no KafkaConsumer.");
+        }
+
     }
-
 }

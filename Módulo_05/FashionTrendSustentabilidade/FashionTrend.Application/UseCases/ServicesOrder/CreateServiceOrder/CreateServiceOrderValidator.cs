@@ -4,6 +4,8 @@ public class CreateServiceOrderValidator : AbstractValidator<CreateServiceOrderR
 {
     public CreateServiceOrderValidator()
     {
-       // RuleFor(x => x.SupplierId).NotEmpty();
+        RuleFor(x => x.Supplier.Id).NotEmpty();
+        RuleFor(x => x.Service.Id).NotEmpty();
+        RuleFor(x => x.EstimetedDate).NotEmpty();
     }
 }

@@ -4,7 +4,7 @@ public sealed class UpdateServiceOrderValidator : AbstractValidator<UpdateServic
 {
     public UpdateServiceOrderValidator()
     {
-        RuleFor(x => x.supplierId).NotEmpty();
-        RuleFor(x => x.type).NotEmpty();
+        RuleFor(x => x.Id).NotEmpty();
+        RuleFor(x => x.Status).NotEmpty();
     }
 }
