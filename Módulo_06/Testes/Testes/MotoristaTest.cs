@@ -1,14 +1,12 @@
-﻿using NSubstitute.ExceptionExtensions;
-
-public class MotoristaTest
+﻿public class MotoristaTest
 {
     // nomeMetodo_CondicaoCenario_ComportamentoEsperado():
-    Pessoa pessoa1 = new Pessoa() {Nome = "Ana", Idade = 27, PossuiHabilitaçãoB = true};
-    Pessoa pessoa2 = new Pessoa() {Nome = "Hugo", Idade = 32, PossuiHabilitaçãoB = true};
-    Pessoa pessoa3 = new Pessoa() {Nome = "Mara", Idade = 59, PossuiHabilitaçãoB = false};
-    Pessoa pessoa4 = new Pessoa() {Nome = "Sophia", Idade = 1, PossuiHabilitaçãoB = false};
-    Pessoa pessoa5 = new Pessoa() {Nome = "Luiz", Idade = 17, PossuiHabilitaçãoB = true};
-    Pessoa pessoa6= new Pessoa() { Nome = "Carolina", Idade = 18, PossuiHabilitaçãoB = true };
+    Pessoa pessoa1 = new Pessoa() { Nome = "Ana", Idade = 27, PossuiHabilitaçãoB = true };
+    Pessoa pessoa2 = new Pessoa() { Nome = "Hugo", Idade = 32, PossuiHabilitaçãoB = true };
+    Pessoa pessoa3 = new Pessoa() { Nome = "Mara", Idade = 59, PossuiHabilitaçãoB = false };
+    Pessoa pessoa4 = new Pessoa() { Nome = "Sophia", Idade = 1, PossuiHabilitaçãoB = false };
+    Pessoa pessoa5 = new Pessoa() { Nome = "Luiz", Idade = 17, PossuiHabilitaçãoB = true };
+    Pessoa pessoa6 = new Pessoa() { Nome = "Carolina", Idade = 18, PossuiHabilitaçãoB = true };
 
     [Fact]
     [Trait("DoisMotoristas", "RealizaViagem")]
@@ -54,7 +52,7 @@ public class MotoristaTest
     [Trait("EncontrouMotorista", "RealizaViagem")]
     public void EncontrarMotoristas_Motorista18Anos_RetornaEncontrouMotoristas()
     {
-        List<Pessoa> pessoas = new List<Pessoa>() { pessoa1, pessoa6};
+        List<Pessoa> pessoas = new List<Pessoa>() { pessoa1, pessoa6 };
 
         Motorista motorista = new();
 
