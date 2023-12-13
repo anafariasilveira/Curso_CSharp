@@ -1,24 +1,21 @@
-﻿namespace btg_testes_auto.Order
+﻿public class OrderService
 {
-    public class OrderService
+    private readonly IInventoryService _inventoryService;
+
+    public OrderService(IInventoryService inventoryService)
     {
-        private readonly IInventoryService _inventoryService;
+        _inventoryService = inventoryService;
+    }
 
-        public OrderService(IInventoryService inventoryService)
+    public bool ProcessOrder(PurchaseOrder order)
+    {
+        var stockQuantity = _inventoryService.GetStockQuantity(order.ProductId);
+
+        if (stockQuantity >= order.Quantity)
         {
-            _inventoryService = inventoryService;
+            return _inventoryService.UpdateStock(order.ProductId, -order.Quantity);
         }
 
-        public bool ProcessOrder(PurchaseOrder order)
-        {
-            var stockQuantity = _inventoryService.GetStockQuantity(order.ProductId);
-
-            if (stockQuantity >= order.Quantity)
-            {
-                return _inventoryService.UpdateStock(order.ProductId, -order.Quantity);
-            }
-
-            return false;
-        }
+        return false;
     }
 }

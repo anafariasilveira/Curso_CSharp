@@ -1,8 +1,5 @@
-﻿namespace btg_testes_auto.Order
+﻿public interface IInventoryService
 {
-    public interface IInventoryService
-    {
-        int GetStockQuantity(string productId);
-        bool UpdateStock(string productId, int quantity);
-    }
+    int GetStockQuantity(string productId);
+    bool UpdateStock(string productId, int quantity);
 }
