@@ -1,8 +1,6 @@
-﻿namespace btg_testes_auto.Discount
+﻿public enum CustomerType
 {
-    public enum CustomerType
-    {
-        Regular,
-        Premium
-    }
+    NotClient,
+    Regular,
+    Premium
 }

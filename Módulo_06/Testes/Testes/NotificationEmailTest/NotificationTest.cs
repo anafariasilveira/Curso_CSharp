@@ -30,8 +30,12 @@ public class NotificationTest
         Assert.False(resultado);
     }
     [Fact]
-    public void SendNotification_EmailInvalido_RetornaFalse()
+    public void SendNotification_EmailFalse_RetornaFalse()
     {
+        _mockEmailService.SendEmail(Arg.Any<string>(), Arg.Any<string>(), Arg.Any<string>()).Returns(false);
 
+        bool resultado = _sut.SendNotification("anapaula.abc", "Teste com falha");
+
+        Assert.False(resultado);
     }
 }
