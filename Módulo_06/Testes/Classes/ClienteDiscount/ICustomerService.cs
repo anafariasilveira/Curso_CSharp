@@ -1,4 +1,4 @@
-﻿namespace btg_testes_auto.Discount
+﻿namespace Classes.ClienteDiscount
 {
     public interface ICustomerService
     {

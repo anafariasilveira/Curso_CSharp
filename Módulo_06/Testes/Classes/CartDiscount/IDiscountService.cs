@@ -1,4 +1,4 @@
-﻿namespace btg_testes_auto.CartDiscount
+﻿namespace Classes.CartDiscount
 {
     public interface IDiscountService
     {

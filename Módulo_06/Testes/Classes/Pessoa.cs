@@ -1,6 +1,10 @@
-﻿public class Pessoa
+﻿#nullable disable
+namespace Classes
 {
-    public string Nome { get; set; }
-    public int Idade { get; set; }
-    public bool PossuiHabilitaçãoB { get; set; }
+    public class Pessoa
+    {
+        public string Nome { get; set; }
+        public int Idade { get; set; }
+        public bool PossuiHabilitaçãoB { get; set; }
+    }
 }

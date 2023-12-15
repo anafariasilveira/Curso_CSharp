@@ -1,6 +1,9 @@
-﻿public enum CustomerType
+﻿namespace Classes.ClienteDiscount
 {
-    NotClient,
-    Regular,
-    Premium
+    public enum CustomerType
+    {
+        NotClient,
+        Regular,
+        Premium
+    }
 }

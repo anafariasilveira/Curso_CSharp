@@ -1,25 +1,28 @@
-﻿public class Motorista
+﻿namespace Classes
 {
-    public string EncontrarMotoristas(List<Pessoa> pessoas)
+    public class Motorista
     {
-        List<Pessoa> motoristas = new();
-        foreach (var pessoa in pessoas)
+        public string EncontrarMotoristas(List<Pessoa> pessoas)
         {
-            if (pessoa.Idade < 18)
+            List<Pessoa> motoristas = new();
+            foreach (var pessoa in pessoas)
             {
-                continue;
-            }
-
-            if (pessoa.PossuiHabilitaçãoB)
-            {
-                motoristas.Add(pessoa);
-                if (motoristas.Count == 2)
+                if (pessoa.Idade < 18)
                 {
-                    return $"Uhuu! Os motorista são {motoristas[0].Nome} e {motoristas[1].Nome}";
+                    continue;
+                }
+
+                if (pessoa.PossuiHabilitaçãoB)
+                {
+                    motoristas.Add(pessoa);
+                    if (motoristas.Count == 2)
+                    {
+                        return $"Uhuu! Os motorista são {motoristas[0].Nome} e {motoristas[1].Nome}";
+                    }
                 }
             }
-        }
 
-        throw new Exception("A viagem não será realizada devido falta de motoristas!");
+            throw new Exception("A viagem não será realizada devido falta de motoristas!");
+        }
     }
 }

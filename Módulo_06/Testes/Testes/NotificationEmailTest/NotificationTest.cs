@@ -1,4 +1,5 @@
 ﻿using NSubstitute;
+using Classes.NotificationEmail;
 
 public class NotificationTest
 {

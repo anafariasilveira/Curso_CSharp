@@ -1,5 +1,8 @@
-﻿public interface IInventoryService
+﻿namespace Classes.Order
 {
-    int GetStockQuantity(string productId);
-    bool UpdateStock(string productId, int quantity);
+    public interface IInventoryService
+    {
+        int GetStockQuantity(string productId);
+        bool UpdateStock(string productId, int quantity);
+    }
 }

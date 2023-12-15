@@ -1,29 +1,32 @@
-﻿public class Funcionario
+﻿namespace Classes
 {
-    public string Nome { get; set; }
-    public decimal Salario { get; set; }
-    public string NivelProfissional { get; private set; }
-
-    public Funcionario(string nome, decimal salario)
+    public class Funcionario
     {
-        Nome = nome;
-        Salario = salario;
-        NivelProfissional = DefinirNivelProfissional();
-    }
+        public string Nome { get; set; }
+        public decimal Salario { get; set; }
+        public string NivelProfissional { get; private set; }
 
-    public string DefinirNivelProfissional()
-    {
-        if (Salario < 1999)
+        public Funcionario(string nome, decimal salario)
         {
-            return "Junior";
+            Nome = nome;
+            Salario = salario;
+            NivelProfissional = DefinirNivelProfissional();
         }
-        else if (Salario < 7999)
+
+        public string DefinirNivelProfissional()
         {
-            return "Pleno";
-        }
-        else
-        {
-            return "Senior";
+            if (Salario < 1999)
+            {
+                return "Junior";
+            }
+            else if (Salario < 7999)
+            {
+                return "Pleno";
+            }
+            else
+            {
+                return "Senior";
+            }
         }
     }
 }

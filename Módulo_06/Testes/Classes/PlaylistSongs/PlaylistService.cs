@@ -1,4 +1,4 @@
-﻿namespace btg_testes_auto.PlaylistSongs
+﻿namespace Classes.PlaylistSongs
 {
     public class PlaylistService
     {
@@ -21,7 +21,7 @@
 
         public void AddSongsToPlaylist(Playlist playlist, List<Song> songs)
         {
-            foreach(Song song in songs)
+            foreach (Song song in songs)
             {
                 if (_playlistValidationService.CanAddSongToPlaylist(playlist, song))
                 {

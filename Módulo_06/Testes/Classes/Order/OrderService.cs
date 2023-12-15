@@ -1,21 +1,24 @@
-﻿public class OrderService
+﻿namespace Classes.Order
 {
-    private readonly IInventoryService _inventoryService;
-
-    public OrderService(IInventoryService inventoryService)
+    public class OrderService
     {
-        _inventoryService = inventoryService;
-    }
+        private readonly IInventoryService _inventoryService;
 
-    public bool ProcessOrder(PurchaseOrder order)
-    {
-        var stockQuantity = _inventoryService.GetStockQuantity(order.ProductId);
-
-        if (stockQuantity >= order.Quantity)
+        public OrderService(IInventoryService inventoryService)
         {
-            return _inventoryService.UpdateStock(order.ProductId, -order.Quantity);
+            _inventoryService = inventoryService;
         }
 
-        return false;
+        public bool ProcessOrder(PurchaseOrder order)
+        {
+            var stockQuantity = _inventoryService.GetStockQuantity(order.ProductId);
+
+            if (stockQuantity >= order.Quantity)
+            {
+                return _inventoryService.UpdateStock(order.ProductId, -order.Quantity);
+            }
+
+            return false;
+        }
     }
 }

@@ -1,6 +1,9 @@
 ﻿// Data Transfer Object
-public class PurchaseOrder
+namespace Classes.Order
 {
-    public string ProductId { get; set; }
-    public int Quantity { get; set; }
+    public class PurchaseOrder
+    {
+        public string ProductId { get; set; }
+        public int Quantity { get; set; }
+    }
 }

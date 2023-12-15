@@ -1,21 +1,26 @@
-﻿public class LucroTest
+﻿using Classes;
+
+namespace Testes
 {
-    [Fact]
-    public void Calcular_LucroDe45_VendaComLucro()
+    public class LucroTest
     {
-        Lucro lucro = new ();
+        [Fact]
+        public void Calcular_LucroDe45_VendaComLucro()
+        {
+            Lucro lucro = new();
 
-        decimal venda45 = lucro.Calcular(19.99M);
+            decimal venda45 = lucro.Calcular(19.99M);
 
-        Assert.Equal(28.9855M, venda45);
-    }
-    [Fact]
-    public void Calcular_LucroDe30_VendaComLucro()
-    {
-        Lucro lucro = new();
+            Assert.Equal(28.9855M, venda45);
+        }
+        [Fact]
+        public void Calcular_LucroDe30_VendaComLucro()
+        {
+            Lucro lucro = new();
 
-        decimal venda30 = lucro.Calcular(20);
+            decimal venda30 = lucro.Calcular(20);
 
-        Assert.Equal(26, venda30);
+            Assert.Equal(26, venda30);
+        }
     }
 }

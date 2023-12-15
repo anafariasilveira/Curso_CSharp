@@ -1,26 +1,29 @@
-﻿public class NotificationService
+﻿namespace Classes.NotificationEmail
 {
-    private readonly IEmailService _emailService;
-
-    public NotificationService(IEmailService emailService)
+    public class NotificationService
     {
-        _emailService = emailService;
-    }
+        private readonly IEmailService _emailService;
 
-    public bool SendNotification(string recipient, string message)
-    {
-        if (string.IsNullOrWhiteSpace(message))
+        public NotificationService(IEmailService emailService)
         {
-            return false; // Se a mensagem estiver vazia, não envia o e-mail
+            _emailService = emailService;
         }
 
-        try
+        public bool SendNotification(string recipient, string message)
         {
-            return _emailService.SendEmail(recipient, "Notification", message);
-        }
-        catch (Exception)
-        {
-            return false;
+            if (string.IsNullOrWhiteSpace(message))
+            {
+                return false; // Se a mensagem estiver vazia, não envia o e-mail
+            }
+
+            try
+            {
+                return _emailService.SendEmail(recipient, "Notification", message);
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
     }
 }

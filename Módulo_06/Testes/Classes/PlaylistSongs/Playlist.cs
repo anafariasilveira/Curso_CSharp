@@ -1,4 +1,4 @@
-﻿namespace btg_testes_auto.PlaylistSongs
+﻿namespace Classes.PlaylistSongs
 {
     public class Playlist
     {

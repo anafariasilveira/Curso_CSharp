@@ -1,6 +1,6 @@
-﻿using FluentAssertions;
+﻿using Classes.Order;
+using FluentAssertions;
 using NSubstitute;
-
 public class OrderServiceTest
 {
     private readonly IInventoryService _mockInventoryService;
@@ -22,7 +22,7 @@ public class OrderServiceTest
             Quantity = 3
         };
 
-        _mockInventoryService.GetStockQuantity("2")
+        _mockInventoryService.GetStockQuantity("1")
             .Returns(5);
 
         _mockInventoryService.UpdateStock("1", -3)
@@ -32,7 +32,7 @@ public class OrderServiceTest
         bool result = _sut.ProcessOrder(purchaseOrder);
 
         // Assert
-        result.Should().BeFalse();
+        result.Should().BeTrue();
         _mockInventoryService.Received().GetStockQuantity("1");
         _mockInventoryService.Received(1).UpdateStock("1", -3);
     }

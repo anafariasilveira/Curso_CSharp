@@ -1,31 +1,34 @@
-﻿public class AnaliseSuspeitos
+﻿namespace Classes
 {
-    // THEORY INLINEDATA ALUNAS
-    public string ExecutarQuestionarioSuspeito(bool telefonouVitima, bool esteveNoLocal, bool moraPerto, bool devedor, bool trabalhaComVitima)
+    public class AnaliseSuspeitos
     {
-        int respostasPositivas = 0;
-
-        if (telefonouVitima) respostasPositivas++;
-
-        if (esteveNoLocal) respostasPositivas++;
-
-        if (moraPerto) respostasPositivas++;
-
-        if (devedor) respostasPositivas++;
-
-        if (trabalhaComVitima) respostasPositivas++;
-
-        switch (respostasPositivas)
+        // THEORY INLINEDATA ALUNAS
+        public string ExecutarQuestionarioSuspeito(bool telefonouVitima, bool esteveNoLocal, bool moraPerto, bool devedor, bool trabalhaComVitima)
         {
-            case 2:
-                return "Suspeita";
-            case 3:
-            case 4:
-                return "Cúmplice";
-            case 5:
-                return "Assassino";
-            default:
-                return "Inocente";
+            int respostasPositivas = 0;
+
+            if (telefonouVitima) respostasPositivas++;
+
+            if (esteveNoLocal) respostasPositivas++;
+
+            if (moraPerto) respostasPositivas++;
+
+            if (devedor) respostasPositivas++;
+
+            if (trabalhaComVitima) respostasPositivas++;
+
+            switch (respostasPositivas)
+            {
+                case 2:
+                    return "Suspeita";
+                case 3:
+                case 4:
+                    return "Cúmplice";
+                case 5:
+                    return "Assassino";
+                default:
+                    return "Inocente";
+            }
         }
     }
 }

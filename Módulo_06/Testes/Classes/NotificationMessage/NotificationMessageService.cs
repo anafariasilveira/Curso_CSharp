@@ -1,4 +1,4 @@
-﻿namespace btg_testes_auto.NotificationMessage
+﻿namespace Classes.NotificationMessage
 {
     public class NotificationService
     {

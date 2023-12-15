@@ -1,4 +1,4 @@
-﻿namespace btg_testes_auto.ShippingCost
+﻿namespace Classes.ShippingCost
 {
     public enum DeliveryType
     {

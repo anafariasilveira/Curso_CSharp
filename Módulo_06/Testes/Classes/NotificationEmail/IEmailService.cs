@@ -1,4 +1,7 @@
-﻿public interface IEmailService
+﻿namespace Classes.NotificationEmail
 {
-    bool SendEmail(string to, string subject, string body);
+    public interface IEmailService
+    {
+        bool SendEmail(string to, string subject, string body);
+    }
 }
