@@ -34,22 +34,22 @@ namespace Testes
             Assert.Contains("Parabéns! Você foi aprovado na recuperação!", resultado);
             Assert.Contains("8,37", resultado);
         }
-        //[Fact(DisplayName = "Reprovado na Recuperação")]
-        //public void CaclculaMedia_NotasMenorQue07_RetornaReprovadoNaRecuperação()
-        //{
-        //    List<decimal> notas = new()
-        //{
-        //    7, 5, 8, 7
-        //};
-        //    MediaNotas mediaNotas = new();
+        [Fact(DisplayName = "Reprovado na Recuperação")]
+        public void CaclculaMedia_NotasMenorQue07_RetornaReprovadoNaRecuperação()
+        {
+            List<decimal> notas = new()
+        {
+            7, 5, 8, 7
+        };
+            MediaNotas mediaNotas = new();
 
-        //    decimal notaRecuperacao = 5;
+            decimal notaRecuperacao = 5;
 
-        //    string resultado = mediaNotas.CalculaMedia(notas, notaRecuperacao);
+            string resultado = mediaNotas.CalculaMedia(notas, notaRecuperacao);
 
-        //    Assert.Contains("Infelizmente você não foi aprovado na recuperação :(.", resultado);
-        //    Assert.Contains("5,87", resultado);
-        //}
+            Assert.Contains("Infelizmente você não foi aprovado na recuperação :(.", resultado);
+            Assert.Contains("5,87", resultado);
+        }
         [Fact(DisplayName = "Nota 7 Aprovado")]
         public void CalculaMedia_NotaIgualA07_RetornaAprovado()
         {

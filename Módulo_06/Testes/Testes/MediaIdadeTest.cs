@@ -11,9 +11,9 @@ namespace Testes
             MediaIdades idade = new();
 
             List<int> listaIdade = new()
-        {
+            {
             18, 20, 35, 13, 07, 23
-        };
+            };
 
             // act
             decimal mediaIdades = idade.CalculaMedia(listaIdade);
@@ -26,9 +26,9 @@ namespace Testes
             MediaIdades idades = new();
 
             List<int> idadeMenor18 = new()
-        {
+            {
             07, 12, 15, 05
-        };
+            };
 
             Action retorno = () => idades.CalculaMedia(idadeMenor18);
 

@@ -1,5 +1,7 @@
 ﻿C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\AnaliseSuspeitoTest.cs
 C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\CalculadoraTest.cs
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\CartDiscountTest\CartServiceTest.cs
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\ClientDiscountTest\DiscountServiceTest.cs
 C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\FuncionarioTest.cs
 C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\INSSTest.cs
 C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\LucroTest.cs
@@ -8,7 +10,10 @@ C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\MediaNotas
 C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\MeiaCinemaTest.cs
 C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\MotoristaTest.cs
 C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\NotificationEmailTest\NotificationTest.cs
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\NotificationMessageTest\NotificationMessageServiceTest.cs
 C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\OrderTest\OrderServiceTest.cs
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\PlaylistSongsTest\PlaylistServiceTest.cs
+C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\ShippingCostTest\ShippingServiceTest.cs
 C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\Usings.cs
 C:\Users\aninh\Documents\GitHub\Curso_CSharp\Módulo_06\Testes\Testes\VooTest.cs
 C:\Users\aninh\.nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs
