@@ -111,41 +111,42 @@ public class SupplierController : ControllerBase
         var response = await _mediator.Send(GetRequest, cancellationToken);
         return Ok(response);
     }
-    /// <summary>
-    /// Altera o fornecedor cadastrado pelo Id.
-    /// </summary>
-    /// <param name="id">Id do fornecedor</param>
-    /// <param name="request">Dados do fornecedor a serem alterados.</param>
-    /// <param name="cancellationToken"></param>
-    /// <response code="404">Fornecedor não encontrado.</response>
-    /// <response code="200">Retorna que um fornecedor foi alterado.</response>
-    [HttpPut("{id}")]
-    public async Task<ActionResult<UpdateSupplierResponse>> Update(
-                                        Guid id, UpdateSupplierRequest request, CancellationToken cancellationToken)
-    {
-        if (id != request.Id)
+        /// <summary>
+        /// Altera o fornecedor cadastrado pelo Id.
+        /// </summary>
+        /// <param name="id">Id do fornecedor</param>
+        /// <param name="request">Dados do fornecedor a serem alterados.</param>
+        /// <param name="cancellationToken"></param>
+        /// <response code="404">Fornecedor não encontrado.</response>
+        /// <response code="200">Retorna que um fornecedor foi alterado.</response>
+        [HttpPut("{id}")]
+        public async Task<ActionResult<UpdateSupplierResponse>> Update(
+                                            Guid id, UpdateSupplierRequest request, CancellationToken cancellationToken)
         {
-            return BadRequest();
+            if (id != request.Id)
+            {
+                return BadRequest();
+            }
+            var response = await _mediator.Send(request, cancellationToken);
+            return Ok(response);
         }
-        var response = await _mediator.Send(request, cancellationToken);
-        return Ok(response);
-    }
-    /// <summary>
-    /// Deleta o fornecedor cadastrado pelo Id.
-    /// </summary>
-    /// <param name="id">Id do fornecedor</param>
-    /// <param name="cancellationToken"></param>
-    /// <response code="200">Retorna que um fornecedor foi deletado.</response>
-    [HttpDelete("{id}")]
-    public async Task<IActionResult> Delete(Guid? id, CancellationToken cancellationToken)
-    {
-        if (id is null)
+        /// <summary>
+        /// Deleta o fornecedor cadastrado pelo Id.
+        /// </summary>
+        /// <param name="id">Id do fornecedor</param>
+        /// <param name="cancellationToken"></param>
+        /// <response code="200">Retorna que um fornecedor foi deletado.</response>
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid? id, CancellationToken cancellationToken)
         {
-            return BadRequest();
-        }
+            if (id is null)
+            {
+                return BadRequest();
+            }
 
-        var deleteRequest = new DeleteSupplierRequest(id.Value);
-        var response = await _mediator.Send(deleteRequest, cancellationToken);
-        return Ok(response);
-    }
+            var deleteRequest = new DeleteSupplierRequest(id.Value);
+            var response = await _mediator.Send(deleteRequest, cancellationToken);
+            return Ok(response);
+        }
+    } 
 }

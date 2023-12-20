@@ -15,12 +15,10 @@ public class NotificationTest
     [Fact]
     public void SendNotification_EmailValido_RetornaTrue()
     {
-        //Arrange
         _mockEmailService.SendEmail("ana@gmail.com", "Notification", "Teste realizado com sucesso!").Returns(true);
-        //Act
+        
         bool resultado = _sut.SendNotification("ana@gmail.com", "Teste realizado com sucesso!");
 
-        //Assert
         Assert.True(resultado);
     }
     [Fact]

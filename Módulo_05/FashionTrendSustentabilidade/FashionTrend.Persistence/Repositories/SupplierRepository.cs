@@ -13,7 +13,7 @@ public class SupplierRepository : BaseRepository<Supplier>, ISupplierRepository
     {
         return await Context.Suppliers.Where(x => x.SewingMachines.Contains(machines)).ToListAsync(cancellationToken);
     }
-    public async Task<List<Supplier>> GetByMaterial(string material, CancellationToken cancellationToken)
+    public async Task<List<Supplier>> GetByMaterial(EMaterial material, CancellationToken cancellationToken)
     {
         return await Context.Suppliers.Where(x => x.Materials.Equals(material)).ToListAsync(cancellationToken);
     }

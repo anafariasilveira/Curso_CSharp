@@ -5,14 +5,6 @@ namespace Testes
 {
     public class INSSTest
     {
-        /*
-        * Realize o Calculo do INSS de um salário utilizando a tabela abaixo
-        * Salario até R$ 1.212,00 aliquota de 7,5%
-        * até R$ 2.427,35 aliquota de 9%
-        * até R$ 3.641,03 aliquota de 12%
-        * acima disso aliquota de 14%
-        */
-
         [Fact(DisplayName = "Salario até R$ 1.212,00")]
         [Trait("INSS", "RetornaAliquotaAplicavel")]
         public void RetornarAliquotaAplicavel_Salario1212_Retorna7_5()
